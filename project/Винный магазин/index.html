@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Винный Магазин</title>
+    <link rel="stylesheet" href="style/main.css" />
+    <link rel="stylesheet" href="style/media.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Playfair+Display:wght@700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <nav>
+          <div class="header__address">
+            <p class="header__text">Новокузнечный переулок 4/1</p>
+            <p class="header__text">8 (812) 123-45-67</p>
+          </div>
+          <div class="header__menu table-menu-link-item grid">
+            <a href="#" class="header__item">Каталог</a>
+            <a href="#" class="header__item">Доставка</a>
+            <a href="#" class="header__item">Коллекции</a>
+            <a href="#" class="header__item">Контакты</a>
+          </div>
+        </nav>
+        <div class="header__info">
+          <a href="#" class="header__button button">винная карта</a>
+          <a href="#" class="header__button button">дегустация</a>
+        </div>
+      </div>
+    </header>
+    <section class="info">
+      <div class="container">
+        <div class="info__content">
+          <h2 class="info__title title">
+            Лучший вкус, это вкус долголетнего вина
+          </h2>
+          <p class="info__text subtitle">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Feugiat
+            enim tortor in hac id imperdiet adipiscing. Pellentesque nisi, mi
+            sit non sit sed fermentum. Felis adipiscing morbi sodales ac. Mauris
+            dictumst risus pulvinar blandit elit. Vestibulum quam ultrices
+            nascetur et viverra suscipit. Proin vitae aliquet leo aliquam amet
+            rutrum. Lectus auctor purus ultrices enim ultrices. Augue fringilla
+            tellus tortor orci ultrices sed. Viverra cras sapien, pellentesque
+            viverra malesuada. Tellus dolor, eget vitae dignissim molestie eget
+            sit duis. Vitae dui vel pretium euismod diam. Pellentesque amet,
+            lacus, amet, quis risus. Pellentesque scelerisque nunc, orci aliquam
+            quis.
+          </p>
+          <img src="img/glass.png" alt="#" class="info__img" />
+        </div>
+      </div>
+    </section>
+    <section class="collections">
+      <div class="container">
+        <div class="collections__content">
+          <p class="collections__news-info subtitle">Новинки коллекций</p>
+          <h2 class="collections__title title">
+            Март 1980 <span>Урожай Марселя</span>
+          </h2>
+          <p class="collections__text text-style">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Feugiat
+            enim tortor in hac id imperdiet adipiscing. Pellentesque nisi, mi
+            sit non sit sed fermentum. Felis adipiscing morbi sodales ac.
+          </p>
+          <ul class="collections__list">
+            <li class="collections__item">
+              <p class="collections__date text-style">1980</p>
+              <div class="collections__event">
+                <h3>Colli Euganei Bianco Ca' Lustra 1980</h3>
+                <p class="text-style">Красочная бутылка вина из Марселя</p>
+              </div>
+            </li>
+            <li class="collections__item">
+              <p class="collections__date text-style">1980</p>
+              <div class="collections__event">
+                <h3>Colli Euganei Bianco Ca' Lustra 1980</h3>
+                <p class="text-style">Красочная бутылка вина из Марселя</p>
+              </div>
+            </li>
+            <li class="collections__item">
+              <p class="collections__date text-style">1980</p>
+              <div class="collections__event">
+                <h3>Colli Euganei Bianco Ca' Lustra 1980</h3>
+                <p class="text-style">Красочная бутылка вина из Марселя</p>
+              </div>
+            </li>
+          </ul>
+          <p class="collections__text text-style">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Feugiat
+            enim tortor in hac id imperdiet adipiscing. Pellentesque nisi, mi
+            sit non sit sed fermentum. Felis adipiscing morbi sodales ac.
+          </p>
+          <a href="#" class="collections__button button">узнать подробнее</a>
+        </div>
+        <div class="collections__photo">
+          <img src="img/plantation.jpg" alt="#" class="collections__img" />
+          <img src="img/bottlesfirst.jpg" alt="#" class="collections__img" />
+          <img src="img/bottlesSecond.jpg" alt="#" class="collections__img" />
+        </div>
+        <!-- Slider main container -->
+        <div class="collections__swiper-container swiper-container">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="collections__swiper-slide swiper-slide">
+              <div class="collections__swiper-slide">
+                <img
+                  src="img/plantation.jpg"
+                  alt="#"
+                  class="collections__img"
+                />
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="collections__swiper-slide">
+                <img
+                  src="img/bottlesfirst.jpg"
+                  alt="#"
+                  class="collections__img"
+                />
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="collections__swiper-slide">
+                <img
+                  src="img/bottlesSecond.jpg"
+                  alt="#"
+                  class="collections__img"
+                />
+              </div>
+            </div>
+          </div>
+          <!-- If we need pagination -->
+          <div class="collections__swiper-pagination swiper-pagination"></div>
+
+          <!-- If we need navigation buttons -->
+          <div class="collections__swiper-button-prev swiper-button-prev"></div>
+          <div class="collections__swiper-button-next swiper-button-next"></div>
+        </div>
+      </div>
+    </section>
+    <section class="registration">
+      <div class="container">
+        <form action="" class="registration__form position-r">
+          <img
+            src="img/grape.jpg"
+            class="position-a registration__img-first"
+            alt="#"
+          />
+          <img
+            src="img/barrel.jpg"
+            class="position-a registration__img-second"
+            alt="#"
+          />
+          <fieldset>
+            <legend class="title position-r">Запись на дегустацию</legend>
+            <div class="registration__content">
+              <p class="registration__text subtitle">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Feugiat
+                enim tortor in hac id imperdiet adipiscing. Pellentesque nisi,
+                mi sit non sit sed fermentum.
+              </p>
+              <div class="flex">
+                <input
+                  type="text"
+                  placeholder="Имя"
+                  class="registration__input"
+                />
+                <input
+                  type="text"
+                  placeholder="Телефон"
+                  class="registration__input"
+                />
+              </div>
+              <input
+                type="text"
+                placeholder="Бутик на Невском 103"
+                class="registration__input"
+              />
+              <a type="button" href="#" class="registration__button button"
+                >записаться</a
+              >
+            </div>
+          </fieldset>
+        </form>
+      </div>
+    </section>
+    <footer>
+      <div class="container">
+        <div class="footer__wrapper grid table-menu-link-item">
+          <div class="footer__menu">
+            <a href="#" class="footer__link">Главная</a>
+            <a href="#" class="footer__link">Каталог</a>
+            <a href="#" class="footer__link">Поставщики</a>
+            <a href="#" class="footer__link">Коллекции</a>
+            <a href="#" class="footer__link">Дегустация</a>
+            <a href="#" class="footer__link">Коллекция 2020</a>
+            <a href="#" class="footer__link">Контакты</a>
+          </div>
+          <p class="footer__logo">винный бутик LE CORTE</p>
+          <p class="footer__number">8 (812) 123-45-67</p>
+          <div class="footer__network">
+            <img src="img/youtube.svg" alt="#" />
+            <img src="img/vk.svg" alt="#" />
+            <img src="img/facebook.svg" alt="#" />
+          </div>
+          <p class="footer__logo">© le-corte.ru</p>
+        </div>
+      </div>
+    </footer>
+    <!-- JS int -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="JS/main.js"></script>
+  </body>
+</html>

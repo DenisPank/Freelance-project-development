@@ -1,0 +1,21 @@
+.pay__page{padding-bottom:76px;}
+.pay__page .main_title{text-transform:uppercase; margin-bottom:57px;}
+.pay__page .row{margin-bottom:46px; letter-spacing:0;}
+.pay__page .row .image_block{width:34%; margin-right:27px;}
+.pay__page .row .image_block img{margin-left:11px;}
+.pay__page .row .ah2{font-weight:bold; color:#1d3b54; font-size:18px; line-height:21px; margin-bottom:12px;}
+.pay__page .row p{font-size:14px; line-height:20px; color:#4c4c4c;}
+.pay__page .row p a{color:#3089d5; text-decoration:underline;}
+.pay__page .row:nth-child(2) .image_block{padding-top:6px;}
+.pay__page .button{	margin-top:13px;    border-radius: 35px;    padding: 25px 0;	text-align:center;	max-width:265px;    display: block;    background-color: #f4cc5b;    font-size: 15px;    line-height: 18px;    color: #1d3b54;    font-weight: 700;}
+
+@media screen and (max-width:1000px){
+	.pay__page .row{text-align:center;}
+	.pay__page .row .image_block{text-align:center; width:auto; float:none; margin-right:0; margin-bottom:7px;}
+}
+
+@media screen and (max-width:550px){
+	.pay__page .row:first-child p{display:inline;}
+	.pay__page .row p span{display:none;}
+	.pay__page .row:nth-child(4) .ah2{max-width:280px; margin-left:auto; margin-right:auto;}
+}

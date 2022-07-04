@@ -1,0 +1,1208 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>forecast-bar</title>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+    />
+
+    <link rel="stylesheet" href="css/style.min.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header__logo">
+          <a href="index.html">
+            <img src="images/logo.svg" alt="Logo" class="header__logo-img" />
+          </a>
+        </div>
+        <p class="header__time">Открыто с 11:00 до 4:00</p>
+        <div class="header__login-wrapper">
+          <a href="#" class="header__back">Вернуться на главную</a>
+          <div class="header__login">
+            <p class="header__name">Виталий Иванов</p>
+            <div class="header__photo">
+              <img
+                src="images/person.jpg"
+                alt="Person"
+                class="header__person"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="wrapper">
+      <main class="main">
+        <section class="meet">
+          <div class="container">
+            <h1 class="meet__title wow fadeInUp" data-wow-duration="1s">
+              Бар прогно
+              <span
+                class="meet__subtitle wow fadeInUp"
+                data-wow-duration="1.5s"
+              >
+                Спортивные прогнозы на спорт: футбол, хоккей, баскетбол,
+                волейбол, теннис. Обсуждайте матчи и будьте   в курсе последних
+                событий.
+                <span class="small-line"
+                  ><object data="images/small-line.svg" type=""></object
+                ></span>
+              </span>
+              зов
+            </h1>
+            <div class="meet__title-mobil">
+              <h1 class="meet__title">Бар прогнозов</h1>
+              <span class="meet__subtitle">
+                Спортивные прогнозы на спорт: футбол, хоккей, баскетбол,
+                волейбол, теннис. Обсуждайте матчи и будьте   в курсе последних
+                событий.
+                <span class="small-line"
+                  ><object data="images/small-line.svg" type=""></object
+                ></span>
+              </span>
+              <a href="autho.html" class="header__autho mobil">
+                Авторизация
+                <svg
+                  width="20"
+                  height="18"
+                  viewBox="0 0 20 18"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M9 4L7.6 5.4L10.2 8H0V10H10.2L7.6 12.6L9 14L14 9L9 4ZM18 16H10V18H18C19.1 18 20 17.1 20 16V2C20 0.9 19.1 0 18 0H10V2H18V16Z"
+                    fill="#FAB44A"
+                  />
+                </svg>
+              </a>
+            </div>
+            <div
+              class="meet__glass-wrapper wow rotateInUpRight"
+              data-wow-duration="3s"
+            >
+              <img src="images/glass.png" alt="Glass" class="meet__glass" />
+            </div>
+          </div>
+        </section>
+        <section class="menu">
+          <div class="container">
+            <div class="menu__day">
+              <div class="menu__prev date link" style="order: 0">
+                <span class="date-1">31.08.2021</span>
+              </div>
+              <div class="menu__today active link" style="order: 2">
+                <span class="menu__today-text">Меню на</span>
+                <span class="date date-text"
+                  ><span class="date-2">01.09.2021</span></span
+                >
+              </div>
+              <div class="menu__next date link" style="order: 4">
+                <span class="date-3">02.09.2021</span>
+              </div>
+              <div class="menu__arrow prev link" style="order: 1">
+                <object
+                  data="images/arrow.svg"
+                  style="pointer-events: none"
+                ></object>
+              </div>
+              <div class="menu__arrow next link" style="order: 3">
+                <object
+                  data="images/arrow.svg"
+                  style="pointer-events: none"
+                ></object>
+              </div>
+            </div>
+            <div class="menu__on-now visible">
+              <div class="menu__wrapper">
+                <div class="menu__name-wrapper">
+                  <div>
+                    <img
+                      src="images/Aperitifs.png"
+                      alt="img"
+                      class="menu__img"
+                    />
+                  </div>
+                  <h3 class="menu__name">Аперитивы</h3>
+                </div>
+                <div class="menu__table title">
+                  <div class="menu__col first">
+                    <p class="menu__col-name">Прогнозы</p>
+                  </div>
+                  <div class="menu__col second">
+                    <p class="menu__col-name">Коэффициент</p>
+                  </div>
+                  <div class="menu__col third">
+                    <p class="menu__col-name">Объем ставки</p>
+                  </div>
+                </div>
+                <div class="menu__wrapper-table">
+                  <div class="menu__table info">
+                    <div class="menu__col first">
+                      <p class="menu__col-name mobil">Прогнозы</p>
+                      <div class="menu__date">
+                        02 <span class="menu__date-text">дня</span> 07
+                        <span class="menu__date-text">часов</span> 04
+                        <span class="menu__date-text">минуты</span>
+                      </div>
+                      <div class="menu__date mobil">
+                        02 <span class="menu__date-text">д.</span> 07
+                        <span class="menu__date-text">ч.</span> 04
+                        <span class="menu__date-text">мин.</span>
+                      </div>
+                      <div class="menu__team-wrapper">
+                        <div class="menu__team">
+                          <img src="images/cska.png" alt="flag" />
+                          <p class="menu__name-team">ЦСКА</p>
+                        </div>
+                        <p class="menu__vs">VS</p>
+                        <div class="menu__team">
+                          <img src="images/avan.png" alt="flag" />
+                          <p class="menu__name-team">Авангард</p>
+                        </div>
+                      </div>
+                      <div class="menu__check-wrapper">
+                        <div class="menu__check">
+                          <p class="menu__check-text">Пройдет:</p>
+                          <p class="menu__check-number">6</p>
+                        </div>
+                        <div class="menu__check">
+                          <p class="menu__check-text">не Пройдет:</p>
+                          <p class="menu__check-number">0</p>
+                        </div>
+                        <div class="menu__check">
+                          <p class="menu__check-text">Основное время:</p>
+                          <p class="menu__check-number">ТБ 4,5</p>
+                        </div>
+                      </div>
+                      <div class="menu__number mobil">
+                        <div class="menu__inner mobil">
+                          <p class="menu__text mobil">Коэффициент</p>
+                          <p class="menu__coefficient">1.3</p>
+                        </div>
+                        <div class="menu__inner mobil">
+                          <p class="menu__text mobil">Объем ставки</p>
+                          <p class="menu__bid">3%</p>
+                        </div>
+                      </div>
+                      <div class="menu__btn-wrapper">
+                        <button class="menu__btn be">Сделать ставку</button>
+                        <button class="menu__btn">Обсудить в баре</button>
+                      </div>
+                      <div class="menu__info">
+                        <a class="menu__comm" href="discuss.html">
+                          <img src="images/chat.png" alt="com" />
+                          30 комментариев
+                        </a>
+                        <a class="menu__share" href="soon.html">
+                          <img src="images/share.png" alt="com" />
+                          Поделиться
+                        </a>
+                      </div>
+                    </div>
+                    <div class="menu__col second">
+                      <p class="menu__coefficient">1.3</p>
+                    </div>
+                    <div class="menu__col third">
+                      <p class="menu__bid">3%</p>
+                    </div>
+                  </div>
+                  <div class="menu__line"></div>
+                  <div class="menu__border">
+                    <span class="line top"></span>
+                    <span class="line right"></span>
+                    <span class="line bottom"></span>
+                    <span class="line left"></span>
+                    <span class="circle top-left"></span>
+                    <span class="circle top-right"></span>
+                    <span class="circle bottom-left"></span>
+                    <span class="circle bottom-right"></span>
+                  </div>
+                  <div class="menu__table info second">
+                    <div class="menu__col first">
+                      <div class="menu__date">
+                        02 <span class="menu__date-text">дня</span> 07
+                        <span class="menu__date-text">часов</span> 04
+                        <span class="menu__date-text">минуты</span>
+                      </div>
+                      <div class="menu__team-wrapper">
+                        <div class="menu__team">
+                          <img src="images/cska.png" alt="flag" />
+                          <p class="menu__name-team">ЦСКА</p>
+                        </div>
+                        <p class="menu__vs">VS</p>
+                        <div class="menu__team">
+                          <img src="images/avan.png" alt="flag" />
+                          <p class="menu__name-team">Авангард</p>
+                        </div>
+                      </div>
+                      <div class="menu__check-wrapper">
+                        <div class="menu__check">
+                          <p class="menu__check-text">Пройдет:</p>
+                          <p class="menu__check-number">6</p>
+                        </div>
+                        <div class="menu__check">
+                          <p class="menu__check-text">не Пройдет:</p>
+                          <p class="menu__check-number">0</p>
+                        </div>
+                        <div class="menu__check">
+                          <p class="menu__check-text">Основное время:</p>
+                          <p class="menu__check-number">ТБ 4,5</p>
+                        </div>
+                      </div>
+                      <div class="menu__btn-wrapper">
+                        <button class="menu__btn be">Сделать ставку</button>
+                        <button class="menu__btn">Обсудить в баре</button>
+                      </div>
+                      <div class="menu__info">
+                        <a class="menu__comm" href="discuss.html">
+                          <img src="images/chat.png" alt="com" />
+                          30 комментариев
+                        </a>
+                        <a class="menu__share" href="soon.html">
+                          <img src="images/share.png" alt="com" />
+                          Поделиться
+                        </a>
+                      </div>
+                    </div>
+                    <div class="menu__col second">
+                      <p class="menu__coefficient">1.3</p>
+                    </div>
+                    <div class="menu__col third">
+                      <p class="menu__bid">3%</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="menu__wrapper">
+                <div class="menu__name-wrapper">
+                  <div>
+                    <img src="images/long.png" alt="img" class="menu__img" />
+                  </div>
+                  <h3 class="menu__name">лонги</h3>
+                </div>
+                <div class="menu__table title">
+                  <div class="menu__col first">
+                    <p class="menu__col-name">Прогнозы</p>
+                  </div>
+                  <div class="menu__col second">
+                    <p class="menu__col-name">Коэффициент</p>
+                  </div>
+                  <div class="menu__col third">
+                    <p class="menu__col-name">Объем ставки</p>
+                  </div>
+                </div>
+                <div class="menu__wrapper-table">
+                  <div class="menu__table info">
+                    <div class="menu__col first">
+                      <p class="menu__col-name mobil">Прогнозы</p>
+                      <div class="menu__date">
+                        02 <span class="menu__date-text">дня</span> 07
+                        <span class="menu__date-text">часов</span> 04
+                        <span class="menu__date-text">минуты</span>
+                      </div>
+                      <div class="menu__date mobil">
+                        02 <span class="menu__date-text">д.</span> 07
+                        <span class="menu__date-text">ч.</span> 04
+                        <span class="menu__date-text">мин.</span>
+                      </div>
+                      <div class="menu__team-wrapper">
+                        <div class="menu__team">
+                          <img src="images/cska.png" alt="flag" />
+                          <p class="menu__name-team">ЦСКА</p>
+                        </div>
+                        <p class="menu__vs">VS</p>
+                        <div class="menu__team">
+                          <img src="images/avan.png" alt="flag" />
+                          <p class="menu__name-team">Авангард</p>
+                        </div>
+                      </div>
+                      <div class="menu__check-wrapper">
+                        <div class="menu__check">
+                          <p class="menu__check-text">Пройдет:</p>
+                          <p class="menu__check-number">6</p>
+                        </div>
+                        <div class="menu__check">
+                          <p class="menu__check-text">не Пройдет:</p>
+                          <p class="menu__check-number">0</p>
+                        </div>
+                        <div class="menu__check">
+                          <p class="menu__check-text">Основное время:</p>
+                          <p class="menu__check-number">ТБ 4,5</p>
+                        </div>
+                      </div>
+                      <div class="menu__number mobil">
+                        <div class="menu__inner mobil">
+                          <p class="menu__text mobil">Коэффициент</p>
+                          <p class="menu__coefficient">1.3</p>
+                        </div>
+                        <div class="menu__inner mobil">
+                          <p class="menu__text mobil">Объем ставки</p>
+                          <p class="menu__bid">3%</p>
+                        </div>
+                      </div>
+                      <div class="menu__btn-wrapper">
+                        <button class="menu__btn be">Сделать ставку</button>
+                        <button class="menu__btn">Обсудить в баре</button>
+                      </div>
+                      <div class="menu__info">
+                        <a class="menu__comm" href="discuss.html">
+                          <img src="images/chat.png" alt="com" />
+                          30 комментариев
+                        </a>
+                        <a class="menu__share" href="soon.html">
+                          <img src="images/share.png" alt="com" />
+                          Поделиться
+                        </a>
+                      </div>
+                    </div>
+                    <div class="menu__col second">
+                      <p class="menu__coefficient">1.3</p>
+                    </div>
+                    <div class="menu__col third">
+                      <p class="menu__bid">3%</p>
+                    </div>
+                  </div>
+                  <div class="menu__line"></div>
+                  <div class="menu__border">
+                    <span class="line top"></span>
+                    <span class="line right"></span>
+                    <span class="line bottom"></span>
+                    <span class="line left"></span>
+                    <span class="circle top-left"></span>
+                    <span class="circle top-right"></span>
+                    <span class="circle bottom-left"></span>
+                    <span class="circle bottom-right"></span>
+                  </div>
+                  <div class="menu__table info second">
+                    <div class="menu__col first">
+                      <div class="menu__date">
+                        02 <span class="menu__date-text">дня</span> 07
+                        <span class="menu__date-text">часов</span> 04
+                        <span class="menu__date-text">минуты</span>
+                      </div>
+                      <div class="menu__team-wrapper">
+                        <div class="menu__team">
+                          <img src="images/cska.png" alt="flag" />
+                          <p class="menu__name-team">ЦСКА</p>
+                        </div>
+                        <p class="menu__vs">VS</p>
+                        <div class="menu__team">
+                          <img src="images/avan.png" alt="flag" />
+                          <p class="menu__name-team">Авангард</p>
+                        </div>
+                      </div>
+                      <div class="menu__check-wrapper">
+                        <div class="menu__check">
+                          <p class="menu__check-text">Пройдет:</p>
+                          <p class="menu__check-number">6</p>
+                        </div>
+                        <div class="menu__check">
+                          <p class="menu__check-text">не Пройдет:</p>
+                          <p class="menu__check-number">0</p>
+                        </div>
+                        <div class="menu__check">
+                          <p class="menu__check-text">Основное время:</p>
+                          <p class="menu__check-number">ТБ 4,5</p>
+                        </div>
+                      </div>
+                      <div class="menu__btn-wrapper">
+                        <button class="menu__btn be">Сделать ставку</button>
+                        <button class="menu__btn">Обсудить в баре</button>
+                      </div>
+                      <div class="menu__info">
+                        <a class="menu__comm" href="discuss.html">
+                          <img src="images/chat.png" alt="com" />
+                          30 комментариев
+                        </a>
+                        <a class="menu__share" href="soon.html">
+                          <img src="images/share.png" alt="com" />
+                          Поделиться
+                        </a>
+                      </div>
+                    </div>
+                    <div class="menu__col second">
+                      <p class="menu__coefficient">1.3</p>
+                    </div>
+                    <div class="menu__col third">
+                      <p class="menu__bid">3%</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="menu__wrapper">
+                <div class="menu__name-wrapper">
+                  <div>
+                    <img src="images/shot.png" alt="img" class="menu__img" />
+                  </div>
+                  <h3 class="menu__name">Шоты</h3>
+                </div>
+                <div class="menu__table title">
+                  <div class="menu__col first">
+                    <p class="menu__col-name">Прогнозы</p>
+                  </div>
+                  <div class="menu__col second">
+                    <p class="menu__col-name">Коэффициент</p>
+                  </div>
+                  <div class="menu__col third">
+                    <p class="menu__col-name">Объем ставки</p>
+                  </div>
+                </div>
+                <div class="menu__wrapper-table">
+                  <div class="menu__table info">
+                    <div class="menu__col first">
+                      <p class="menu__col-name mobil">Прогнозы</p>
+                      <div class="menu__date">
+                        02 <span class="menu__date-text">дня</span> 07
+                        <span class="menu__date-text">часов</span> 04
+                        <span class="menu__date-text">минуты</span>
+                      </div>
+                      <div class="menu__date mobil">
+                        02 <span class="menu__date-text">д.</span> 07
+                        <span class="menu__date-text">ч.</span> 04
+                        <span class="menu__date-text">мин.</span>
+                      </div>
+                      <div class="menu__team-wrapper">
+                        <div class="menu__team">
+                          <img src="images/cska.png" alt="flag" />
+                          <p class="menu__name-team">ЦСКА</p>
+                        </div>
+                        <p class="menu__vs">VS</p>
+                        <div class="menu__team">
+                          <img src="images/avan.png" alt="flag" />
+                          <p class="menu__name-team">Авангард</p>
+                        </div>
+                      </div>
+                      <div class="menu__check-wrapper">
+                        <div class="menu__check">
+                          <p class="menu__check-text">Пройдет:</p>
+                          <p class="menu__check-number">6</p>
+                        </div>
+                        <div class="menu__check">
+                          <p class="menu__check-text">не Пройдет:</p>
+                          <p class="menu__check-number">0</p>
+                        </div>
+                        <div class="menu__check">
+                          <p class="menu__check-text">Основное время:</p>
+                          <p class="menu__check-number">ТБ 4,5</p>
+                        </div>
+                      </div>
+                      <div class="menu__number mobil">
+                        <div class="menu__inner mobil">
+                          <p class="menu__text mobil">Коэффициент</p>
+                          <p class="menu__coefficient">1.3</p>
+                        </div>
+                        <div class="menu__inner mobil">
+                          <p class="menu__text mobil">Объем ставки</p>
+                          <p class="menu__bid">3%</p>
+                        </div>
+                      </div>
+                      <div class="menu__btn-wrapper">
+                        <button class="menu__btn be">Сделать ставку</button>
+                        <button class="menu__btn">Обсудить в баре</button>
+                      </div>
+                      <div class="menu__info">
+                        <a class="menu__comm" href="discuss.html">
+                          <img src="images/chat.png" alt="com" />
+                          30 комментариев
+                        </a>
+                        <a class="menu__share" href="soon.html">
+                          <img src="images/share.png" alt="com" />
+                          Поделиться
+                        </a>
+                      </div>
+                    </div>
+                    <div class="menu__col second">
+                      <p class="menu__coefficient">1.3</p>
+                    </div>
+                    <div class="menu__col third">
+                      <p class="menu__bid">3%</p>
+                    </div>
+                  </div>
+                  <div class="menu__line"></div>
+                  <div class="menu__border">
+                    <span class="line top"></span>
+                    <span class="line right"></span>
+                    <span class="line bottom"></span>
+                    <span class="line left"></span>
+                    <span class="circle top-left"></span>
+                    <span class="circle top-right"></span>
+                    <span class="circle bottom-left"></span>
+                    <span class="circle bottom-right"></span>
+                  </div>
+                  <div class="menu__table info second">
+                    <div class="menu__col first">
+                      <div class="menu__date">
+                        02 <span class="menu__date-text">дня</span> 07
+                        <span class="menu__date-text">часов</span> 04
+                        <span class="menu__date-text">минуты</span>
+                      </div>
+                      <div class="menu__team-wrapper">
+                        <div class="menu__team">
+                          <img src="images/cska.png" alt="flag" />
+                          <p class="menu__name-team">ЦСКА</p>
+                        </div>
+                        <p class="menu__vs">VS</p>
+                        <div class="menu__team">
+                          <img src="images/avan.png" alt="flag" />
+                          <p class="menu__name-team">Авангард</p>
+                        </div>
+                      </div>
+                      <div class="menu__check-wrapper">
+                        <div class="menu__check">
+                          <p class="menu__check-text">Пройдет:</p>
+                          <p class="menu__check-number">6</p>
+                        </div>
+                        <div class="menu__check">
+                          <p class="menu__check-text">не Пройдет:</p>
+                          <p class="menu__check-number">0</p>
+                        </div>
+                        <div class="menu__check">
+                          <p class="menu__check-text">Основное время:</p>
+                          <p class="menu__check-number">ТБ 4,5</p>
+                        </div>
+                      </div>
+                      <div class="menu__btn-wrapper">
+                        <button class="menu__btn be">Сделать ставку</button>
+                        <button class="menu__btn">Обсудить в баре</button>
+                      </div>
+                      <div class="menu__info">
+                        <a class="menu__comm" href="discuss.html">
+                          <img src="images/chat.png" alt="com" />
+                          30 комментариев
+                        </a>
+                        <a class="menu__share" href="soon.html">
+                          <img src="images/share.png" alt="com" />
+                          Поделиться
+                        </a>
+                      </div>
+                    </div>
+                    <div class="menu__col second">
+                      <p class="menu__coefficient">1.3</p>
+                    </div>
+                    <div class="menu__col third">
+                      <p class="menu__bid">3%</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="menu__wrapper">
+                <div class="menu__name-wrapper">
+                  <div>
+                    <img src="images/snacks.png" alt="img" class="menu__img" />
+                  </div>
+                  <h3 class="menu__name">Закуски</h3>
+                </div>
+                <div class="menu__table title">
+                  <div class="menu__col first">
+                    <p class="menu__col-name">Прогнозы</p>
+                  </div>
+                  <div class="menu__col second">
+                    <p class="menu__col-name">Коэффициент</p>
+                  </div>
+                  <div class="menu__col third">
+                    <p class="menu__col-name">Объем ставки</p>
+                  </div>
+                </div>
+                <div class="menu__wrapper-table">
+                  <div class="menu__table info">
+                    <div class="menu__col first">
+                      <p class="menu__col-name mobil">Прогнозы</p>
+                      <div class="menu__date">
+                        02 <span class="menu__date-text">дня</span> 07
+                        <span class="menu__date-text">часов</span> 04
+                        <span class="menu__date-text">минуты</span>
+                      </div>
+                      <div class="menu__date mobil">
+                        02 <span class="menu__date-text">д.</span> 07
+                        <span class="menu__date-text">ч.</span> 04
+                        <span class="menu__date-text">мин.</span>
+                      </div>
+                      <div class="menu__team-wrapper">
+                        <div class="menu__team">
+                          <img src="images/cska.png" alt="flag" />
+                          <p class="menu__name-team">ЦСКА</p>
+                        </div>
+                        <p class="menu__vs">VS</p>
+                        <div class="menu__team">
+                          <img src="images/avan.png" alt="flag" />
+                          <p class="menu__name-team">Авангард</p>
+                        </div>
+                      </div>
+                      <div class="menu__check-wrapper">
+                        <div class="menu__check">
+                          <p class="menu__check-text">Пройдет:</p>
+                          <p class="menu__check-number">6</p>
+                        </div>
+                        <div class="menu__check">
+                          <p class="menu__check-text">не Пройдет:</p>
+                          <p class="menu__check-number">0</p>
+                        </div>
+                        <div class="menu__check">
+                          <p class="menu__check-text">Основное время:</p>
+                          <p class="menu__check-number">ТБ 4,5</p>
+                        </div>
+                      </div>
+                      <div class="menu__number mobil">
+                        <div class="menu__inner mobil">
+                          <p class="menu__text mobil">Коэффициент</p>
+                          <p class="menu__coefficient">1.3</p>
+                        </div>
+                        <div class="menu__inner mobil">
+                          <p class="menu__text mobil">Объем ставки</p>
+                          <p class="menu__bid">3%</p>
+                        </div>
+                      </div>
+                      <div class="menu__btn-wrapper">
+                        <button class="menu__btn be">Сделать ставку</button>
+                        <button class="menu__btn">Обсудить в баре</button>
+                      </div>
+                      <div class="menu__info">
+                        <a class="menu__comm" href="discuss.html">
+                          <img src="images/chat.png" alt="com" />
+                          30 комментариев
+                        </a>
+                        <a class="menu__share" href="soon.html">
+                          <img src="images/share.png" alt="com" />
+                          Поделиться
+                        </a>
+                      </div>
+                    </div>
+                    <div class="menu__col second">
+                      <p class="menu__coefficient">1.3</p>
+                    </div>
+                    <div class="menu__col third">
+                      <p class="menu__bid">3%</p>
+                    </div>
+                  </div>
+                  <div class="menu__line"></div>
+                  <div class="menu__border">
+                    <span class="line top"></span>
+                    <span class="line right"></span>
+                    <span class="line bottom"></span>
+                    <span class="line left"></span>
+                    <span class="circle top-left"></span>
+                    <span class="circle top-right"></span>
+                    <span class="circle bottom-left"></span>
+                    <span class="circle bottom-right"></span>
+                  </div>
+                  <div class="menu__table info second">
+                    <div class="menu__col first">
+                      <div class="menu__date">
+                        02 <span class="menu__date-text">дня</span> 07
+                        <span class="menu__date-text">часов</span> 04
+                        <span class="menu__date-text">минуты</span>
+                      </div>
+                      <div class="menu__team-wrapper">
+                        <div class="menu__team">
+                          <img src="images/cska.png" alt="flag" />
+                          <p class="menu__name-team">ЦСКА</p>
+                        </div>
+                        <p class="menu__vs">VS</p>
+                        <div class="menu__team">
+                          <img src="images/avan.png" alt="flag" />
+                          <p class="menu__name-team">Авангард</p>
+                        </div>
+                      </div>
+                      <div class="menu__check-wrapper">
+                        <div class="menu__check">
+                          <p class="menu__check-text">Пройдет:</p>
+                          <p class="menu__check-number">6</p>
+                        </div>
+                        <div class="menu__check">
+                          <p class="menu__check-text">не Пройдет:</p>
+                          <p class="menu__check-number">0</p>
+                        </div>
+                        <div class="menu__check">
+                          <p class="menu__check-text">Основное время:</p>
+                          <p class="menu__check-number">ТБ 4,5</p>
+                        </div>
+                      </div>
+                      <div class="menu__btn-wrapper">
+                        <button class="menu__btn be">Сделать ставку</button>
+                        <button class="menu__btn">Обсудить в баре</button>
+                      </div>
+                      <div class="menu__info">
+                        <a class="menu__comm" href="discuss.html">
+                          <img src="images/chat.png" alt="com" />
+                          30 комментариев
+                        </a>
+                        <a class="menu__share" href="soon.html">
+                          <img src="images/share.png" alt="com" />
+                          Поделиться
+                        </a>
+                      </div>
+                    </div>
+                    <div class="menu__col second">
+                      <p class="menu__coefficient">1.3</p>
+                    </div>
+                    <div class="menu__col third">
+                      <p class="menu__bid">3%</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="menu__on-then">
+              <div class="menu__wrapper">
+                <div class="menu__name-wrapper">
+                  <div>
+                    <img src="images/shot.png" alt="img" class="menu__img" />
+                  </div>
+                  <h3 class="menu__name">Шоты</h3>
+                </div>
+                <div class="menu__table title">
+                  <div class="menu__col first">
+                    <p class="menu__col-name">Прогнозы</p>
+                  </div>
+                  <div class="menu__col second">
+                    <p class="menu__col-name">Коэффициент</p>
+                  </div>
+                  <div class="menu__col third">
+                    <p class="menu__col-name">Объем ставки</p>
+                  </div>
+                </div>
+                <div class="menu__wrapper-table">
+                  <div class="menu__table info">
+                    <div class="menu__col first">
+                      <p class="menu__col-name mobil">Прогнозы</p>
+                      <div class="menu__date">
+                        02 <span class="menu__date-text">дня</span> 07
+                        <span class="menu__date-text">часов</span> 04
+                        <span class="menu__date-text">минуты</span>
+                      </div>
+                      <div class="menu__date mobil">
+                        02 <span class="menu__date-text">д.</span> 07
+                        <span class="menu__date-text">ч.</span> 04
+                        <span class="menu__date-text">мин.</span>
+                      </div>
+                      <div class="menu__team-wrapper">
+                        <div class="menu__team">
+                          <img src="images/cska.png" alt="flag" />
+                          <p class="menu__name-team">ЦСКА</p>
+                        </div>
+                        <p class="menu__vs">VS</p>
+                        <div class="menu__team">
+                          <img src="images/avan.png" alt="flag" />
+                          <p class="menu__name-team">Авангард</p>
+                        </div>
+                      </div>
+                      <div class="menu__check-wrapper">
+                        <div class="menu__check">
+                          <p class="menu__check-text">Пройдет:</p>
+                          <p class="menu__check-number">6</p>
+                        </div>
+                        <div class="menu__check">
+                          <p class="menu__check-text">не Пройдет:</p>
+                          <p class="menu__check-number">0</p>
+                        </div>
+                        <div class="menu__check">
+                          <p class="menu__check-text">Основное время:</p>
+                          <p class="menu__check-number">ТБ 4,5</p>
+                        </div>
+                      </div>
+                      <div class="menu__number mobil">
+                        <div class="menu__inner mobil">
+                          <p class="menu__text mobil">Коэффициент</p>
+                          <p class="menu__coefficient">1.3</p>
+                        </div>
+                        <div class="menu__inner mobil">
+                          <p class="menu__text mobil">Объем ставки</p>
+                          <p class="menu__bid">3%</p>
+                        </div>
+                      </div>
+                      <div class="menu__btn-wrapper">
+                        <button class="menu__btn be">Сделать ставку</button>
+                        <button class="menu__btn">Обсудить в баре</button>
+                      </div>
+                      <div class="menu__info">
+                        <a class="menu__comm" href="discuss.html">
+                          <img src="images/chat.png" alt="com" />
+                          30 комментариев
+                        </a>
+                        <a class="menu__share" href="soon.html">
+                          <img src="images/share.png" alt="com" />
+                          Поделиться
+                        </a>
+                      </div>
+                    </div>
+                    <div class="menu__col second">
+                      <p class="menu__coefficient">1.3</p>
+                    </div>
+                    <div class="menu__col third">
+                      <p class="menu__bid">3%</p>
+                    </div>
+                  </div>
+                  <div class="menu__line"></div>
+                  <div class="menu__border">
+                    <span class="line top"></span>
+                    <span class="line right"></span>
+                    <span class="line bottom"></span>
+                    <span class="line left"></span>
+                    <span class="circle top-left"></span>
+                    <span class="circle top-right"></span>
+                    <span class="circle bottom-left"></span>
+                    <span class="circle bottom-right"></span>
+                  </div>
+                  <div class="menu__table info second">
+                    <div class="menu__col first">
+                      <div class="menu__date">
+                        02 <span class="menu__date-text">дня</span> 07
+                        <span class="menu__date-text">часов</span> 04
+                        <span class="menu__date-text">минуты</span>
+                      </div>
+                      <div class="menu__team-wrapper">
+                        <div class="menu__team">
+                          <img src="images/cska.png" alt="flag" />
+                          <p class="menu__name-team">ЦСКА</p>
+                        </div>
+                        <p class="menu__vs">VS</p>
+                        <div class="menu__team">
+                          <img src="images/avan.png" alt="flag" />
+                          <p class="menu__name-team">Авангард</p>
+                        </div>
+                      </div>
+                      <div class="menu__check-wrapper">
+                        <div class="menu__check">
+                          <p class="menu__check-text">Пройдет:</p>
+                          <p class="menu__check-number">6</p>
+                        </div>
+                        <div class="menu__check">
+                          <p class="menu__check-text">не Пройдет:</p>
+                          <p class="menu__check-number">0</p>
+                        </div>
+                        <div class="menu__check">
+                          <p class="menu__check-text">Основное время:</p>
+                          <p class="menu__check-number">ТБ 4,5</p>
+                        </div>
+                      </div>
+                      <div class="menu__btn-wrapper">
+                        <button class="menu__btn be">Сделать ставку</button>
+                        <button class="menu__btn">Обсудить в баре</button>
+                      </div>
+                      <div class="menu__info">
+                        <a class="menu__comm" href="discuss.html">
+                          <img src="images/chat.png" alt="com" />
+                          30 комментариев
+                        </a>
+                        <a class="menu__share" href="soon.html">
+                          <img src="images/share.png" alt="com" />
+                          Поделиться
+                        </a>
+                      </div>
+                    </div>
+                    <div class="menu__col second">
+                      <p class="menu__coefficient">1.3</p>
+                    </div>
+                    <div class="menu__col third">
+                      <p class="menu__bid">3%</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="menu__on-last">
+              <div class="menu__wrapper">
+                <div class="menu__name-wrapper">
+                  <div>
+                    <img src="images/snacks.png" alt="img" class="menu__img" />
+                  </div>
+                  <h3 class="menu__name">Закуски</h3>
+                </div>
+                <div class="menu__table title">
+                  <div class="menu__col first">
+                    <p class="menu__col-name">Прогнозы</p>
+                  </div>
+                  <div class="menu__col second">
+                    <p class="menu__col-name">Коэффициент</p>
+                  </div>
+                  <div class="menu__col third">
+                    <p class="menu__col-name">Объем ставки</p>
+                  </div>
+                </div>
+                <div class="menu__wrapper-table">
+                  <div class="menu__table info">
+                    <div class="menu__col first">
+                      <p class="menu__col-name mobil">Прогнозы</p>
+                      <div class="menu__date">
+                        02 <span class="menu__date-text">дня</span> 07
+                        <span class="menu__date-text">часов</span> 04
+                        <span class="menu__date-text">минуты</span>
+                      </div>
+                      <div class="menu__date mobil">
+                        02 <span class="menu__date-text">д.</span> 07
+                        <span class="menu__date-text">ч.</span> 04
+                        <span class="menu__date-text">мин.</span>
+                      </div>
+                      <div class="menu__team-wrapper">
+                        <div class="menu__team">
+                          <img src="images/cska.png" alt="flag" />
+                          <p class="menu__name-team">ЦСКА</p>
+                        </div>
+                        <p class="menu__vs">VS</p>
+                        <div class="menu__team">
+                          <img src="images/avan.png" alt="flag" />
+                          <p class="menu__name-team">Авангард</p>
+                        </div>
+                      </div>
+                      <div class="menu__check-wrapper">
+                        <div class="menu__check">
+                          <p class="menu__check-text">Пройдет:</p>
+                          <p class="menu__check-number">6</p>
+                        </div>
+                        <div class="menu__check">
+                          <p class="menu__check-text">не Пройдет:</p>
+                          <p class="menu__check-number">0</p>
+                        </div>
+                        <div class="menu__check">
+                          <p class="menu__check-text">Основное время:</p>
+                          <p class="menu__check-number">ТБ 4,5</p>
+                        </div>
+                      </div>
+                      <div class="menu__number mobil">
+                        <div class="menu__inner mobil">
+                          <p class="menu__text mobil">Коэффициент</p>
+                          <p class="menu__coefficient">1.3</p>
+                        </div>
+                        <div class="menu__inner mobil">
+                          <p class="menu__text mobil">Объем ставки</p>
+                          <p class="menu__bid">3%</p>
+                        </div>
+                      </div>
+                      <div class="menu__btn-wrapper">
+                        <button class="menu__btn be">Сделать ставку</button>
+                        <button class="menu__btn">Обсудить в баре</button>
+                      </div>
+                      <div class="menu__info">
+                        <a class="menu__comm" href="discuss.html">
+                          <img src="images/chat.png" alt="com" />
+                          30 комментариев
+                        </a>
+                        <a class="menu__share" href="soon.html">
+                          <img src="images/share.png" alt="com" />
+                          Поделиться
+                        </a>
+                      </div>
+                    </div>
+                    <div class="menu__col second">
+                      <p class="menu__coefficient">1.3</p>
+                    </div>
+                    <div class="menu__col third">
+                      <p class="menu__bid">3%</p>
+                    </div>
+                  </div>
+                  <div class="menu__line"></div>
+                  <div class="menu__border">
+                    <span class="line top"></span>
+                    <span class="line right"></span>
+                    <span class="line bottom"></span>
+                    <span class="line left"></span>
+                    <span class="circle top-left"></span>
+                    <span class="circle top-right"></span>
+                    <span class="circle bottom-left"></span>
+                    <span class="circle bottom-right"></span>
+                  </div>
+                  <div class="menu__table info second">
+                    <div class="menu__col first">
+                      <div class="menu__date">
+                        02 <span class="menu__date-text">дня</span> 07
+                        <span class="menu__date-text">часов</span> 04
+                        <span class="menu__date-text">минуты</span>
+                      </div>
+                      <div class="menu__team-wrapper">
+                        <div class="menu__team">
+                          <img src="images/cska.png" alt="flag" />
+                          <p class="menu__name-team">ЦСКА</p>
+                        </div>
+                        <p class="menu__vs">VS</p>
+                        <div class="menu__team">
+                          <img src="images/avan.png" alt="flag" />
+                          <p class="menu__name-team">Авангард</p>
+                        </div>
+                      </div>
+                      <div class="menu__check-wrapper">
+                        <div class="menu__check">
+                          <p class="menu__check-text">Пройдет:</p>
+                          <p class="menu__check-number">6</p>
+                        </div>
+                        <div class="menu__check">
+                          <p class="menu__check-text">не Пройдет:</p>
+                          <p class="menu__check-number">0</p>
+                        </div>
+                        <div class="menu__check">
+                          <p class="menu__check-text">Основное время:</p>
+                          <p class="menu__check-number">ТБ 4,5</p>
+                        </div>
+                      </div>
+                      <div class="menu__btn-wrapper">
+                        <button class="menu__btn be">Сделать ставку</button>
+                        <button class="menu__btn">Обсудить в баре</button>
+                      </div>
+                      <div class="menu__info">
+                        <a class="menu__comm" href="discuss.html">
+                          <img src="images/chat.png" alt="com" />
+                          30 комментариев
+                        </a>
+                        <a class="menu__share" href="soon.html">
+                          <img src="images/share.png" alt="com" />
+                          Поделиться
+                        </a>
+                      </div>
+                    </div>
+                    <div class="menu__col second">
+                      <p class="menu__coefficient">1.3</p>
+                    </div>
+                    <div class="menu__col third">
+                      <p class="menu__bid">3%</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="reviews">
+          <div class="container">
+            <h2 class="reviews__title">Книга отзывов</h2>
+            <!-- Slider main container -->
+            <div class="swiper">
+              <!-- Additional required wrapper -->
+              <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide">
+                  <div class="reviews__card">
+                    <p class="reviews__text">
+                      Задача организации, в особенности же консультация с
+                      широким активом в значительной степени обуславливает
+                      создание существенных финансовых и административных
+                      условий. Не следует, однако забывать, что постоянное
+                      информационно-пропагандистское обеспечение нашей
+                      деятельности влечет за собой процесс.
+                    </p>
+                    <p class="reviews__name">Иванов Олег</p>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="reviews__card">
+                    <p class="reviews__text">
+                      Задача организации, в особенности же консультация с
+                      широким активом в значительной степени обуславливает
+                      создание существенных финансовых и административных
+                      условий. Не следует, однако забывать, что постоянное
+                      информационно-пропагандистское обеспечение нашей
+                      деятельности влечет за собой процесс.
+                    </p>
+                    <p class="reviews__name">Иванов Олег</p>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="reviews__card">
+                    <p class="reviews__text">
+                      Задача организации, в особенности же консультация с
+                      широким активом в значительной степени обуславливает
+                      создание существенных финансовых и административных
+                      условий. Не следует, однако забывать, что постоянное
+                      информационно-пропагандистское обеспечение нашей
+                      деятельности влечет за собой процесс.
+                    </p>
+                    <p class="reviews__name">Иванов Олег</p>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="reviews__card">
+                    <p class="reviews__text">
+                      Задача организации, в особенности же консультация с
+                      широким активом в значительной степени обуславливает
+                      создание существенных финансовых и административных
+                      условий. Не следует, однако забывать, что постоянное
+                      информационно-пропагандистское обеспечение нашей
+                      деятельности влечет за собой процесс.
+                    </p>
+                    <p class="reviews__name">Иванов Олег</p>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="reviews__card">
+                    <p class="reviews__text">
+                      Задача организации, в особенности же консультация с
+                      широким активом в значительной степени обуславливает
+                      создание существенных финансовых и административных
+                      условий. Не следует, однако забывать, что постоянное
+                      информационно-пропагандистское обеспечение нашей
+                      деятельности влечет за собой процесс.
+                    </p>
+                    <p class="reviews__name">Иванов Олег</p>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="reviews__card">
+                    <p class="reviews__text">
+                      Задача организации, в особенности же консультация с
+                      широким активом в значительной степени обуславливает
+                      создание существенных финансовых и административных
+                      условий. Не следует, однако забывать, что постоянное
+                      информационно-пропагандистское обеспечение нашей
+                      деятельности влечет за собой процесс.
+                    </p>
+                    <p class="reviews__name">Иванов Олег</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="form">
+          <div class="container">
+            <div class="form__beer">
+              <img src="images/beer.png" alt="beer" class="form__img" />
+            </div>
+            <form action="#" method="GET" class="form__form">
+              <p class="form__title">Оставьте свой отзыв</p>
+              <div class="form__select-wrapper">
+                <a href="#" class="form__select">Выбрать прогноз</a>
+                <ul class="form__list">
+                  <li class="form__item">
+                    <a href="#" class="form__link"> Выбрать прогноз </a>
+                  </li>
+                  <li class="form__item">
+                    <a href="#" class="form__link"> Выбрать прогноз </a>
+                  </li>
+                  <li class="form__item">
+                    <a href="#" class="form__link"> Выбрать прогноз </a>
+                  </li>
+                  <li class="form__item">
+                    <a href="#" class="form__link"> Выбрать прогноз </a>
+                  </li>
+                </ul>
+              </div>
+              <textarea
+                rows="5"
+                cols="45"
+                name="text"
+                class="form__textarea"
+                placeholder="Оставьте комментарий..."
+              ></textarea>
+            </form>
+          </div>
+        </section>
+      </main>
+      <footer class="footer"></footer>
+    </div>
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="js/main.min.js"></script>
+    <script>
+      wow = new WOW({
+        boxClass: "wow", // default
+        animateClass: "animated", // default
+        offset: 0, // default
+        mobile: false, // default
+        live: true, // default
+      });
+      wow.init();
+    </script>
+  </body>
+</html>

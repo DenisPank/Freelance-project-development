@@ -1,0 +1,56 @@
+@font-face {
+    font-family: 'icons';
+    src:  url('../fonts/icons.eot?yspp8y');
+    src:  url('../fonts/icons.eot?yspp8y#iefix') format('embedded-opentype'),
+    url('../fonts/icons.ttf?yspp8y') format('truetype'),
+    url('../fonts/icons.woff?yspp8y') format('woff'),
+    url('../fonts/icons.svg?yspp8y#icons') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+[class^="icon-"]::before,
+[class*=" icon-"]::before {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icons' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-arrow:before {
+    content: "\e900";
+    color: #fff;
+}
+.icon-arrow27:before {
+    content: "\e901";
+    color: #fff;
+}
+.icon-arrow50:before {
+    content: "\e902";
+    color: #fff;
+}
+.icon-arrow130:before {
+    content: "\e903";
+    color: #fff;
+}
+.icon-basket:before {
+    content: "\e904";
+    color: #fff;
+}
+.icon-close:before {
+    content: "\e905";
+    color: #fff;
+}
+.icon-search:before {
+    content: "\e906";
+    color: #fff;
+}

@@ -1,0 +1,36 @@
+.comments__page .epm_top_block{margin-top: 20px; margin-bottom: 45px;}
+.comments__page .epm_top_block a{padding-left: 40px; margin: 15px 27px;}
+.comments__page .epm_top_block a b{border-bottom: 1px dashed #1d3b54; font-weight: 900; font-size: 14px; line-height: 17px; color: #1d3b54;}
+.comments__page .epm_top_block a .image_block{left: 0; top: 0px; height: 26px; width: 30px;}
+.comments__page .epm_top_block a:hover .image_block img{display: none;}
+.comments__page .epm_top_block a:hover .image_block img.hide{display: block;}
+.comments__page .epm_top_block a:hover b{color: #3089d5; border-bottom: 1px dashed #3089d5;}
+.comments__page .h130{height: 150%;}
+.comments__page{padding-bottom: 75px;}
+.comments__page .window_50 .fright{padding: 0 0px; padding-right: 35px; padding-top: 95px;}
+.comments__page .window_50 .epm_comm3:before{left: 0; top: -50px; width: 100%; height: 30px; background: url(../img/commas.png) no-repeat center; background-size: contain; position: absolute; content:'';}
+.comments__page .window_50 .pic_block{max-width: 178px; overflow:hidden;height:100%; position:relative; width:100%;}
+.comments__page .window_50 .pic_block > a{position:relative; width:100%; height:100%; overflow:hidden; text-align:center; display:table;}
+.comments__page .window_50 .border_m{padding-top:20px;height:auto;}
+.comments__page .window_50 .border_m > a{border:2px solid #bdbdbd;box-sizing:border-box;}
+.comments__page .window_50 .pic_block > a span{position:relative; width:100%; height:100%; display:table-cell; vertical-align:middle;}
+.comments__page .window_50 .pic_block > a span > img{position:relative; width:auto; height:auto; max-height:100%; max-width:100%; display:inline-block; vertical-align:middle;}
+.comments__page .epm_all_amenities a{width: 274px; box-sizing:border-box; margin-top: 75px; z-index: 10; border-radius: 35px; padding: 25px 48px; display: inline-block; vertical-align: top; background-color: #f4cc5b; font-size: 15px; line-height: 18px; color: #1d3b54; font-weight: 700;}
+.comments__page .catalog_rew .window_50{ background-color: #fff;}
+.comments__page .catalog_rew .w47{box-sizing:border-box; width: 47.3%; height: 285px;}
+.comments__page .catalog_rew .item{padding-right: 30px; margin-bottom: 30px; float: none; display: inline-block; vertical-align: top; margin-right: -4px;}
+.comments__page .catalog_rew .row{margin-right: -30px; margin-bottom: -30px;}
+.comments__page .catalog_rew .window{cursor: pointer; padding: 25px; height: 285px; background-color: #fff;}
+.comments__page .catalog_rew .epm_foto_block{overflow: hidden; position: relative; margin-right: 15px; width: 58px; height: 58px; border-radius: 50%;}
+.comments__page .catalog_rew .epm_name{margin-bottom: 5px; font-weight: 900; font-size: 15px; line-height: 19px; color: #1d3b54;}
+.comments__page .catalog_rew{ background-color: rgba(29,59,84,.15); box-shadow: 0 0 70px 30px rgba(29,59,84,.15);}
+.comments__page .catalog_rew .epm_text{margin-top: 25px; max-height: 134px; overflow: hidden; position: relative;}
+.comments__page .catalog_rew .epm_text b{display: block; position: relative; font-size: 12px; line-height: 20px; color: #000;}
+.comments__page .catalog_rew .epm_text:after{background: linear-gradient(to top, #fff, rgba(225, 225, 225, 0)); width: 100%; height: 30px; content:''; position: absolute; bottom: 0;z-index: 10;}
+.comments__page .catalog_rew .epm_text b:before{background: linear-gradient(to top, #fff, rgba(225, 225, 225, 0)); width: 100%; height: 30px; content:''; position: absolute; bottom: 0;}
+.main_comments{background-size: auto; background-position: top center;}
+.comments__page .epm_reiting span{margin-right: -3px; text-align: center; color: #fff; font-weight: 900; font-size: 9px; line-height: 20px; width: 20px; background-color: #38c05f; border-radius: 50%; display: inline-block; vertical-align: top;}
+.comments__page .epm_reiting span.active{background-color: #f4cc5b;}
+.comments__page .epm_comm3{position: relative; margin-bottom: 10px; font-weight: 900; font-size: 16px; line-height: 19px; color: #1d3b54;}
+.comments__page .ph2{font-weight: 700; font-size: 14px; line-height:17px;}
+.comments__page .hide{display: none;}

@@ -1,0 +1,518 @@
+@import url(fonts.css);
+
+body {
+  padding: 0;
+  margin: 0;
+  background: #f8fbff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+ul,
+li,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+button {
+  padding: 0;
+  margin: 0;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a {
+  font-family: "Gilroy-Regular";
+}
+
+li,
+ul {
+  list-style-type: none;
+}
+
+h1 {
+  line-height: 1.2em;
+  font-size: 50px;
+}
+span.color {
+  color: #685ed6;
+  font-family: "Gilroy-ExtraBold";
+  font-size: 24px;
+}
+
+.container {
+  width: 1170px;
+  padding: 0 30px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.title {
+  font-family: "Gilroy-ExtraBold";
+  font-size: 48px;
+}
+
+.sub-title {
+  font-family: "Gilroy-Bold";
+  font-size: 28px;
+  line-height: 1.429em;
+}
+
+.title-list {
+  font-family: "Gilroy-SemiBold";
+  font-size: 24px;
+}
+
+.text {
+  font-family: "Gilroy-Regular";
+  font-size: 16px;
+  line-height: 1.625em;
+}
+
+.btn-light {
+  font-family: "Gilroy-Bold";
+  font-size: 18px;
+  color: #685ed6;
+  background-color: #f1e4ff;
+  border-radius: 6px;
+  padding: 10px 60px;
+  transition: background-color 0.4s ease;
+}
+
+.btn-light:hover {
+  background-color: #c39bfb;
+  color: #685ed6;
+}
+
+.btn-light:active {
+  background-color: #685ed6;
+  color: white;
+}
+.btn-heavy {
+  font-family: "Gilroy-Bold";
+  font-size: 18px;
+  color: white;
+  background-color: #685ed6;
+  border-radius: 6px;
+  padding: 10px 60px;
+  transition: background-color 0.4s ease, box-shadow 0.4s ease;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.07);
+}
+
+.btn-heavy:hover {
+  background-color: #33afe1;
+  box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.14);
+}
+
+.btn-heavy:active {
+  background-color: #18e1f7;
+  box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.14);
+}
+
+/* header  */
+
+.header {
+  padding: 30px 0 285px 0;
+  background: url("/img/BG.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  background-position: center;
+}
+
+.navbar {
+  margin-bottom: 125px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar__btn {
+  margin: 0 6px;
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+.header__btn {
+  padding: 12px 32px;
+}
+
+.header__content {
+  max-width: 500px;
+}
+
+.header__text {
+  font-size: 24px;
+  margin: 30px 0;
+}
+.header__title {
+  font-size: 50px;
+}
+.header__title span.color {
+  font-size: inherit;
+  display: block;
+}
+
+.header__img-wrapp {
+  position: absolute;
+  top: 167px;
+  right: 0;
+  transform: translateX(calc(-60px));
+}
+
+.header__img {
+  width: 100%;
+}
+
+/* description  */
+
+.description {
+  padding: 70px 0;
+  background-color: #f8fbff;
+}
+
+.description__wrapp {
+  display: flex;
+  justify-content: space-between;
+}
+
+.description__item {
+  display: flex;
+  margin: 48px 0;
+}
+
+.description__item div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 28px;
+}
+
+.description__list {
+  margin-top: 44px;
+}
+
+.description__content {
+  max-width: 500px;
+}
+
+/* rate  */
+.rate {
+  padding: 100px 0 50px 0;
+  text-align: center;
+}
+
+.rate__type {
+  display: block;
+  width: 100%;
+  background: rgba(104, 94, 214, 0.05);
+  padding: 15px 0;
+}
+
+.rate__discript {
+  margin-bottom: 32px;
+  padding: 0 15px;
+}
+.rate__btn {
+  width: 100%;
+  padding: 10px 10px;
+  white-space: nowrap;
+}
+.rate__text {
+  font-family: "Gilroy-Medium";
+  margin-bottom: 46px;
+  font-size: 20px;
+}
+
+.rate__item {
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.07);
+  border-radius: 6px;
+  width: 350px;
+}
+
+.rate__item div {
+  padding: 40px 30px 50px 30px;
+}
+
+.rate__list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.rate__subtitle {
+  margin: 16px 0 40px 0;
+  font-size: 24px;
+}
+/* step  */
+.step {
+  text-align: center;
+  padding: 50px 0 70px 0;
+  background-image: url("../img/bg-phone.jpg");
+  background-repeat: no-repeat;
+  background-size: 1270px;
+  background-position-x: center;
+  background-position-y: 575px;
+}
+.step__number {
+  font-family: "Gilroy-Bold";
+  font-size: 30px;
+  color: #685ed6;
+  text-align: center;
+  width: 72px;
+  height: 72px;
+  border-radius: 100px;
+  background-color: #f1e4ff;
+  line-height: 72px;
+  margin: 0 auto;
+  margin-bottom: 16px;
+}
+
+.step__subtitle {
+  font-size: 18px;
+}
+
+.step__item {
+  max-width: 285px;
+}
+
+.step__img {
+  margin-top: 40px;
+}
+
+.step__list {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  margin-top: 40px;
+}
+
+.step__list::after {
+  display: block;
+  content: url("../img/lines.svg");
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.step__item-center {
+  margin-top: 85px;
+}
+
+/* reviews  */
+.reviews {
+  text-align: center;
+  padding: 70px 0;
+}
+.reviews__content-wrap {
+  padding: 32px 32px 56px 32px;
+  box-shadow: 0px 10px 20px rgba(41, 41, 42, 0.07);
+  border-radius: 6px;
+  color: #18191f;
+  background-color: white;
+  position: relative;
+}
+.reviews__slider {
+  margin-top: 50px;
+}
+.reviews__content-wrap::after {
+  content: "";
+  position: absolute;
+  bottom: -19px;
+  border: 10px solid transparent;
+  border-top: 10px solid white;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 4px;
+}
+
+.reviews__subtitle {
+  font-size: 18px;
+}
+
+.reviews__text {
+  font-size: 14px;
+  line-height: 1.71em;
+  margin-top: 8px;
+}
+
+.reviews__item {
+  max-width: 540px;
+  margin: 0 auto;
+}
+
+.reviews__client {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: 42px;
+}
+
+.reviews__client div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: left;
+  margin-left: 16px;
+}
+
+.reviews__name {
+  font-size: 18px;
+  width: 170px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.reviews__link {
+  text-decoration: none;
+  font-size: 18px;
+  color: #1d2530;
+  width: 170px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.slick-dots li button:before {
+  content: "";
+  width: 6px;
+  height: 6px;
+  border-radius: 100px;
+  border: 2px solid #685ed6;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.slick-dots li.slick-active button:before {
+  background-color: #685ed6;
+}
+
+.slick-dots {
+  bottom: -55px;
+}
+
+/* cta  */
+.cta {
+  padding: 90px 0;
+}
+.cta__wrap {
+  width: 100%;
+  background-image: url("/img/BG-cta.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 6px;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 48px 0 0 0;
+}
+
+.cta__content {
+  max-width: 440px;
+  padding: 0 0 78px;
+}
+
+.cta__title {
+  font-size: 33px;
+  color: white;
+  line-height: 1.24em;
+  font-family: "Gilroy-Bold";
+}
+
+.cta__wrap-img {
+  position: relative;
+  width: 263px;
+}
+.cta__img {
+  position: absolute;
+  bottom: 0;
+  top: auto;
+  left: 0;
+}
+.cta__form {
+  display: flex;
+  margin-top: 32px;
+}
+
+.cta__input {
+  background-color: #f4f5f7;
+  border: none;
+  outline: none;
+  border-radius: 5px 0px 0px 5px;
+  padding: 16px 64px 16px 16px;
+}
+
+.cta__input::placeholder {
+  font-family: "Gilroy-Regular";
+  font-size: 15px;
+  color: #474a57;
+}
+
+.cta__submit {
+  background-color: #18191f;
+  font-family: "Gilroy-Bold";
+  font-size: 14px;
+  color: white;
+  padding: 16px 24px;
+  border-radius: 0px 5px 5px 0px;
+}
+
+/* footer  */
+
+.footer {
+  background-color: #1d2530;
+  padding: 104px 0 78px 0;
+}
+
+.footer__wrap {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__content {
+  display: flex;
+}
+.footer__item {
+  margin-bottom: 12px;
+}
+.footer__list-head {
+  margin-bottom: 32px;
+  font-family: "Gilroy-Medium";
+  color: #f4f5f7;
+}
+
+.footer__title {
+  font-size: 20px;
+}
+
+.footer__link {
+  color: #eeeff4;
+  font-family: "Gilroy-Regular";
+  font-size: 16px;
+}
+
+.footer__list {
+  margin-right: 126px;
+  width: 175px;
+}
+
+/* copyright  */
+.copyright {
+  padding: 25px 0;
+  color: #d9dbe1;
+  background: #141b23;
+}
+
+.copyright__text {
+  font-size: 14px;
+}

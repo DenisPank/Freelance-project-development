@@ -1,0 +1,75 @@
+.mw100{max-width:100%;}
+.cups_page.corporate_page.podramnik_page .first_title_podramnik.another_title{margin-bottom:40px;}
+.cups_page.corporate_page.podramnik_page .box_banner_top .box_banner_left img{max-width:573px; margin-left:50px; margin-top:50px;}
+.cups_page.corporate_page.podramnik_page .box_banner_top{max-width:1110px;}
+.cups_page .cups_price{max-width:1046px; margin-bottom:5px;}
+.cups_page .cups_price .left_block{margin-top:107px; width:13%; text-align:center; line-height:109px; font-size:20px; font-weight:bold; color:#1d3b54; background:#dedede; border:1px dashed #1d3a54; border-right:0;}
+.cups_page .cups_price .right_table table.tit{font-weight:bold;font-size:18px; border:1px dashed #1d3a54; border-bottom:0 !important; color:#1d3b54;}
+.cups_page .cups_price .right_table table.tit td{border:0;padding-bottom:15px;}
+.cups_page .cups_price .right_table table{border:1px dashed #1d3a54; color:#1d3b54}
+.cups_page .cups_price .right_table table  td{border:0; border-top:0; border:1px dashed #1d3a54; padding:16px 0; font-size:18px; line-height:21px; width:10%;}
+.cups_page .cups_price .right_table table tr:nth-child(2) td{background:#dedede; height:77px; vertical-align:middle; font-weight:bold; font-size:20px;}
+.cups_page .cups_price .right_table_mobile{display:none;}
+.cups_page .cups_price i{font-style:normal; font-size:18px; color:#1d3a54;}
+.cups_page .row_cups .w25{margin-bottom:30px; padding:0 20px; font-size:18px; line-height:22px; color:#1d3b54;}
+.cups_page .row_cups .w25 .image_block{height:150px; line-height:150px; margin-bottom:10px;}
+.cups_page .row_cups .w25 .image_block img{display:inline-block; vertical-align:middle; max-width:100%; max-height:100%;}
+.cups_page .row_cups .ah1{font-weight:bold; color:#1d3b54; font-size:24px; line-height:27px; margin-bottom:30px;}
+.cups_page .yellow_border_cups{border:1px solid #f4cc5b; margin-bottom:51px; max-width:900px; box-sizing:border-box; padding:27px 30px 33px; font-weight:bold; font-size:22px; line-height:120px; color:#1d3b54;}
+.cups_page .yellow_border_cups .ah1{line-height:27px; margin-bottom:36px;}
+.cups_page .yellow_border_cups .item1{line-height:23px; font-size:20px; border-left:3px solid #1d3b54; border-right:3px solid #1d3b54; padding:0 33px; position:relative;}
+.cups_page .yellow_border_cups .item1:before{content:''; position:absolute; left:0; top:0; width:13px; height:100%; box-sizing:border-box; border-top:3px solid #1d3b54; border-bottom:3px solid #1d3b54;}
+.cups_page .yellow_border_cups .item1:after{content:''; position:absolute; right:0; top:0; width:13px; height:100%; box-sizing:border-box; border-top:3px solid #1d3b54; border-bottom:3px solid #1d3b54;}
+.cups_page .yellow_border_cups .num{padding:0 10px; font-size:22px; line-height:120px;}
+.cups_page .yellow_border_cups img{margin-top:12px;}
+.cups_page .yellow_border_cups .item4{line-height:23px; font-size:20px; color:#3089d5;}
+.select_cups{background-image:url(../images/cups/v2.jpg); padding-top:65px; padding-bottom:100px;}
+.select_cups .ah2{font-weight:bold; color:#1d3b54; font-size:20px; line-height:20px;}
+.select_cups .epm_title.first_title_podramnik{margin-bottom:65px;}
+.select_cups .left_block{margin-right:20px; padding-top:100px;}
+.select_cups .left_block .ah2{margin-bottom:-80px; position:relative;}
+.select_cups .left_block .button{background:#f4cc5b; font-size:16px; font-weight:bold; line-height:69px; border-radius:35px; max-width:267px; color:#1d3b54; margin-top:-50px; position:relative;}
+.select_cups .ah3{font-size:16px; line-height:20px; color:#1d3b54; margin-bottom:20px; font-weight:bold;}
+.select_cups .right_block .button{background:#f4cc5b; font-size:14px; font-weight:bold; line-height:48px; border-radius:24px; max-width:184px; color:#1d3b54; margin-top:20px; position:relative;}
+.select_cups .right_block .row{padding-top:95px;}
+.select_cups .right_block .row .w50{padding:0 15px;}
+.shirt_page .catalog_prints.catalog_prints_cups .box_catalog .right_side .img_block img{width:auto; margin-left:-50px;}
+.epm_banner2 > div{background-image: url(../images/cups/banner.jpg);}
+.epm_zakaz .block:before {    content: '';    position: absolute;    width: 1108px;    height: 1075px;    background: url(../images/cups/end.png) no-repeat;  background-size:contain;  left: -1000px;    top: 0; margin-top:-65px;}
+.epm_zakaz_cups{background-image:url(../images/cups.jpg); position:relative;}
+.epm_zakaz_cups .inner{position:static;}
+
+@media screen and (max-width:1000px){
+	.cups_page .yellow_border_cups{padding-left:5px; padding-right:5px;}
+	.cups_page .cups_price .left_block{display:none;}
+	.select_cups .right_block .row{max-width:600px; margin:0 auto;}
+	.select_cups .epm_title.first_title_podramnik{margin-bottom:45px;}
+	.select_cups .left_block{float:none; margin:0 auto 60px; padding-top:40px; width:auto; max-width:585px;}
+    .epm_banner2 > div{background-image:none;}
+	.epm_banner2:before{background-image: url(../images/cups/banner1.png);}
+	.cups_page .row_cups{margin:0 auto; max-width:600px;}
+	.cups_page .row_cups .w25{width:50%;}
+}
+
+@media screen and (max-width:930px){
+	.cups_page.corporate_page.podramnik_page .box_banner_top .box_banner_left img{margin-left:0;}
+}
+
+@media screen and (max-width:750px){
+	.cups_page .yellow_border_cups .item3{display:block; line-height:40px;}
+	.cups_page .yellow_border_cups .item2{display:block; line-height:40px;}
+	.cups_page .yellow_border_cups .item1{display:block; max-width:330px; margin:0 auto;}
+}
+
+@media screen and (max-width:700px){
+	.cups_page .cups_price .right_table_mobile{display:block; font-size:18px; line-height:21px; color:#1d3b54;}
+	.cups_page .cups_price .right_table_mobile td{width:50%; padding:10px; text-align:center; border:1px dashed #1d3a54;}
+	.cups_page .cups_price .right_table_mobile th{border:1px dashed #1d3a54; padding:5px;}
+	.cups_page .cups_price .right_table_mobile tr td:nth-child(2), .cups_page .cups_price .right_table_mobile tr th:nth-child(2){background:#dedede; font-weight:bold;}
+	.cups_page .cups_price .right_table{display:none;}
+	.cups_page .yellow_border_cups .item1{padding:0;}
+	.select_cups{padding-bottom:20px;}
+	.select_cups .right_block .row .w50{float:none; width:auto; margin-bottom:60px;}
+	.select_cups .left_block .ah2{margin-bottom:0;}
+	.cups_page .row_cups .w25{float:none; width:auto;}
+}

@@ -1,0 +1,169 @@
+@media screen and (max-width: 940px) {
+  .container {
+    width: 768px;
+  }
+
+  .navbar,
+  .navbar__menu {
+    display: none;
+  }
+
+  .show {
+    display: grid;
+    position: absolute;
+    top: 12%;
+    right: 14%;
+    grid-template-columns: auto;
+    grid-row-gap: 30px;
+    background: rgb(54 70 86);
+    padding: 33px;
+  }
+
+  .show a {
+    color: white;
+  }
+
+  .header__hamburger {
+    display: block;
+  }
+
+  .about__item {
+    text-align: center;
+  }
+
+  .about__we {
+    grid-gap: 10px;
+  }
+
+  /* .about__img {
+    padding: 30px 0 0 0;
+  } */
+
+  .connection .grid {
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 30px;
+    text-align: center;
+  }
+
+  .connection__company,
+  .connection__info,
+  .connection__contact-us,
+  .connection__networks {
+    margin: 0 auto;
+  }
+
+  .services__info {
+    grid-gap: 65px;
+  }
+
+  .services__text {
+    width: 250px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .container {
+    width: 425px;
+  }
+
+  .header__title {
+    margin-top: -80px;
+    width: 100%;
+    margin-left: -212px;
+  }
+
+  .services__info {
+    grid-template-columns: none;
+    grid-gap: 30px;
+    justify-items: center;
+    text-align: center;
+  }
+
+  .services__title::after {
+    margin-left: auto;
+  }
+
+  .services__list {
+    grid-template-columns: none;
+    text-align: center;
+  }
+
+  .newsletter .flex {
+    display: block;
+    text-align: center;
+  }
+
+  .newsletter__title {
+    margin-bottom: 30px;
+  }
+
+  .connection .grid {
+    grid-template-columns: none;
+  }
+
+  .about__item {
+    display: block;
+  }
+
+  .about__we {
+    grid-template-columns: none;
+    height: fit-content;
+    justify-items: center;
+    margin-top: 55px;
+  }
+
+  .about__img {
+    width: 140px;
+    height: 224px;
+    padding: 0;
+  }
+
+  .about__img p {
+    margin: 0 auto;
+    margin-top: 35px;
+  }
+}
+@media screen and (max-width: 425px) {
+  .container {
+    width: 375px;
+  }
+
+  .newsletter__form {
+    display: block;
+  }
+
+  .about__info {
+    width: 100%;
+  }
+
+  .header__title {
+    margin-left: -187px;
+  }
+
+  .newsletter__email {
+    margin-right: 0;
+    border-radius: 30px;
+  }
+
+  .newsletter__bottom {
+    padding: 11px 96px;
+    margin-top: 30px;
+    border-radius: 30px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .container {
+    width: 320px;
+  }
+
+  .header__title {
+    margin-left: -160px;
+  }
+
+  .about__item {
+    grid-gap: 30px;
+  }
+
+  h1 {
+    font-size: 40px;
+  }
+}

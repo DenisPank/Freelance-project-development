@@ -1,0 +1,30 @@
+@media screen and (max-width:1230px){
+.comments__page .catalog_rew .item{padding-right: 15px;}
+.comments__page .catalog_rew .row{margin-right: -15px;}
+.comments__page .catalog_rew .window{padding: 17px;}
+}
+@media screen and (max-width:1150px){
+.comments__page .catalog_rew .epm_ph3{font-size: 14px;}
+.comments__page .catalog_rew .epm_right_block_main{padding: 75px 15px 0;}
+.comments__page .catalog_rew .epm_cat_comm .epm_foto_block{margin-right: 8px; width: 47px; height: 47px;}
+.comments__page .catalog_rew .epm_name{font-size: 14px; }
+}
+
+@media screen and (max-width:1000px){
+.comments__page .catalog_rew{margin: 0 auto; max-width: 650px;}
+.comments__page .catalog_rew .item.w25{width: 50%;}
+.comments__page .catalog_rew .item.w50{width: 100%;}
+}
+
+@media screen and (max-width:550px){
+.comments__page .catalog_rew .window{padding: 25px; height: auto; max-height: 285px;}
+.comments__page .catalog_rew .w47{float: none; width: 100%; height: auto; padding: 35px 25px;}
+.comments__page .catalog_rew .w47 i.db{display:none;}
+.comments__page .catalog_rew{max-width: 500px;}
+.comments__page .catalog_rew .item.w25{width: 100%;}
+.comments__page .window_50 .border_m{padding-top:0px;}
+}
+@media screen and (max-width:500px){
+.comments__page .epm_top_block a{display: block; margin: 15px 0px;}
+.comments__page .epm_top_block{display: table; margin-left: auto; margin-right: auto; text-align: left;}
+}

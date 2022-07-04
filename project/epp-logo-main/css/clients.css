@@ -1,0 +1,25 @@
+
+.clients__page{padding-bottom:75px;}
+.clients__page .main_title{margin-bottom:60px; text-transform:uppercase;}
+.clients__page .row .block.big_block{overflow:hidden;height:285px; padding:0; margin-bottom:-1px;}
+.clients__page .row .block.big_block > div{ border:1px solid #cccccc; }
+.clients__page .row .block.big_block + .block + .block + .block, .clients__page .row .big_block + .block{}
+.clients__page .row .block{height:143px; padding:0 15px; margin-bottom:-1px;}
+.clients__page .row .block > div{height:100%; box-sizing:border-box; border-top:1px solid #cccccc; border-bottom:1px solid #ccc; }
+.clients__page .row .block > div:before{content:"";position:absolute;background: #ccc;width:1px;height:113px;top:14px;left:0px;}
+.clients__page .row .after_big > div:before{left:-1px;}
+.clients__page .row .block > div:after{content:"";position:absolute;background: #ccc;width:1px;height:113px;top:14px;right:-1px;}
+.clients__page .row .block > div .tbc img{max-width:90%; max-height:120px;}
+.clients__page .row .window_50{ background-color: #fff;}
+.clients__page .window_50 .fright{padding: 0 0px; padding-right: 35px; padding-top: 95px;}
+.clients__page .window_50 .epm_comm3:before{left: 0; top: -50px; width: 100%; height: 30px; background: url(../img/commas.png) no-repeat center; background-size: contain; position: absolute; content:'';}
+.clients__page .window_50 .pic_block{max-width: 178px; overflow:hidden;height:100%; position:relative; width:100%;}
+.clients__page .window_50 .pic_block > a{position:relative; width:100%; height:100%; overflow:hidden; text-align:center; display:table;}
+.clients__page .window_50 .border_m{padding-top:20px;height:auto;}
+.clients__page .window_50 .border_m > a{border:2px solid #bdbdbd;box-sizing:border-box;}
+.clients__page .window_50 .pic_block > a span{position:relative; width:100%; height:100%; display:table-cell; vertical-align:middle;}
+.clients__page .window_50 .pic_block > a span > img{position:relative; width:auto; height:auto; max-height:100%; max-width:100%; display:inline-block; vertical-align:middle;}
+.clients__page .window_50 .w47{box-sizing:border-box; width: 47.3%; height: 285px;}
+.clients__page .epm_comm3{position: relative; margin-bottom: 10px; font-weight: 900; font-size: 16px; line-height: 19px; color: #1d3b54;}
+.clients__page .ph2{font-weight: 700; font-size: 14px; line-height:17px;}
+.clients__page .epm_all_amenities a{max-width: 274px;width:96%; box-sizing:border-box; margin-top: 75px; z-index: 10; border-radius: 35px; padding: 25px 48px; display: inline-block; vertical-align: top; background-color: #f4cc5b; font-size: 15px; line-height: 18px; color: #1d3b54; font-weight: 700;}

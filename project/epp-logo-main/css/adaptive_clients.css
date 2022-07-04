@@ -1,0 +1,22 @@
+@media screen and (max-width:1000px) {
+.clients__page .row .block{width: 50%;}
+.clients__page .row .block.big_block{width:100%;}
+.clients__page .row .big_block .block{float:left;width:50%;}
+.clients__page .row .big_block.w20{clear:both;width:100%;}
+.clients__page .row .block > div:before{height:80%;}
+.clients__page .row .block > div:after{height:80%;}
+.clients__page .row .after_big > div:before{left:0px;}
+}
+@media screen and (max-width:500px) {
+.clients__page .row .block{width: 100%;float:none;height:auto;}
+.clients__page .row .block.big_block{width:100%;float:none;height:auto;}
+.clients__page .row .big_block .block{float:none;width:100%;}
+.clients__page .row .big_block.w20{float:none;}
+.clients__page .row .block > div{padding:30px;}
+.clients__page .row .block.big_block > div{padding: 20px;}
+.clients__page .window_50 .w47{float:none;width:auto;height:auto;}
+.clients__page .window_50 .fright{padding-top:75px; padding-right:0;}
+.clients__page .window_50 .pic_block{margin-top:20px;}
+.clients__page .epm_comm3 i.db{display:none;}
+.clients__page .ph2 i.db{display:none;}
+}

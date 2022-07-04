@@ -1,0 +1,17 @@
+@media screen and (max-width:1140px){
+    .corporate_page.price_page.shirt_page .box_tables_big_skroll {
+        overflow-x: scroll;
+        position: relative;
+    }
+    .corporate_page.price_page.shirt_page .first_table_shirts {
+        grid-template-columns: 280px 315px repeat(6 , 85px);
+        justify-content: center;
+        width: 1105px;
+    }
+    .corporate_page.price_page.shirt_page .table_last {
+        overflow-x: scroll;
+    }
+    .corporate_page.price_page .text_after_price_main {
+        margin-top: 9px;
+    }
+}

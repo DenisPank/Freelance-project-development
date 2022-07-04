@@ -1,0 +1,16 @@
+.delivery__page .main_title{text-transform:uppercase; margin-bottom:13px; padding-left:6px;}
+.delivery__page .get_button{font-size:16px; line-height:19px; color:#3089d5; border-bottom:1px solid #acd0ee;}
+.delivery__page .get_button:hover{border-color:#fff;}
+.delivery__page .epm_row{padding:0; font-size:0; margin-top:48px;}
+.delivery__page .epm_row .block{width:302px; font-size:18px; line-height:20px; margin-bottom:50px;}
+.delivery__page .epm_row .block b{color:#1d3b54; display:block; margin-bottom:12px;}
+.delivery__page .epm_row .block img{display:block; margin:0 auto;}
+.delivery__page .epm_blue_block{background:url(../img/delivery/item1.jpg) no-repeat; background-size:cover; margin-top:45px; padding-top:72px;}
+.delivery__page .epm_blue_block .row2{padding-top:34px; font-size:18px; line-height:20px; font-weight:bold; color:#1d3b54; padding-bottom:90px;}
+.delivery__page .epm_blue_block .row2 .item{padding-left:45px; position:relative; padding-right:45px;}
+.delivery__page .epm_blue_block .row2 .item:before{content:''; position:absolute; left:0; top:6px; width:35px; height:32px; background:url(../img/delivery/ok.png) no-repeat;}
+.delivery__page .epm_blue_block .row2 .item:nth-child(2){margin:0 23px;}
+.delivery__page .epm_blue_question{margin-top:0;}
+.delivery__page .epm_blue_question a{width:204px;}
+.delivery__page .epm_blue_question .link{font-size:inherit; line-height:inherit; width:auto; display:inline; color:inherit; background:transparent; height:auto; padding:0; font-weight:400; margin:0; border-bottom:1px dashed #fff; border-radius:0;}
+.delivery__page .epm_blue_question .link:hover{border-color:transparent;}

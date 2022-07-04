@@ -1,0 +1,957 @@
+/*zakaz_new*/
+.corporate_page .epm_title.shirts_title {
+    font-size: 19px;
+    line-height: 22px;
+}
+.epm_zakaz .block li input[type="file"] {
+    padding-top: 20px;
+    height: 0;
+    width: 311px;
+    background: url(../img/loadbutnew.svg) no-repeat;
+    overflow: hidden;
+    cursor: pointer;
+}
+.epm_zakaz .block::before {
+    content: '';
+    position: absolute;
+    width: 915px;
+    height: 746px;
+    background: url(../images/pictnewshirt.png) no-repeat;
+    left: -833px;
+    top: 50%;
+    margin-top: -373px;
+}
+@media screen and (max-width:450px){
+    .epm_zakaz .block li input[type="file"] {
+        background: url(../img/loadbutmob.svg) no-repeat;
+        width: 190px;
+    }
+}
+
+
+/*podarok_new*/
+.epm_banner2 .ah1.bold_banner {
+    font-weight: 700;
+}
+.epm_banner2 > div {
+    background-image: url(../images/banner_new.jpg);
+}
+@media screen and (max-width:1000px){
+    .epm_banner2:before{ background:url(../images/man_new.png) no-repeat center center; background-size: auto 100%;}
+    .epm_banner2 > div {
+        background-image: none;
+    }
+}
+
+
+/*banner*/
+.corporate_page.podramnik_page .box_banner_top .box_banner_left {
+    top: auto;
+}
+.corporate_page.podramnik_page .box_banner_top {
+    padding: 0;
+}
+@media screen and (max-width:930px){
+    .corporate_page.podramnik_page .box_banner_top {
+        padding: 0 0 50px;
+    }
+}
+
+/*shirts*/
+.corporate_page.podramnik_page .first_title_podramnik.another_title {
+    margin-bottom: 5px;
+}
+.shirt_page .title_second {
+    font-size: 20px;
+    font-weight: 400;
+    color: #1d3b54;
+    line-height: 24px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 23px;
+}
+@media screen and (max-width:900px){
+    .shirt_page .title_second {
+        font-size: 16px;
+        line-height: 19px;
+    }
+}
+.corporate_page.podramnik_page.shirt_page .box_banner_top .box_banner_right .item_box_right_bottom .text_item_box_right_bottom a {
+    font-weight: 900;
+    color: #3089d5;
+    text-decoration: underline;
+}
+.corporate_page.podramnik_page.shirt_page .box_banner_top .box_banner_right .item_box_right_bottom .text_item_box_right_bottom a:hover {
+    text-decoration: none;
+}
+.corporate_page.podramnik_page .box_banner_top .box_banner_right .box_right_bottom .item_box_right_bottom .img_block.another_block {
+    top: 3px;
+}
+
+
+/*quality_prints*/
+.shirt_page .quality_shirt {
+    padding: 78px 0;
+    background-image: url("../img/shirts/bg_qualit.jpg");
+}
+.shirt_page .quality_shirt .box_kinds {
+    display: flex;
+    max-width: 700px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    justify-content: space-between;
+    width: 99%;
+}
+.shirt_page .quality_shirt .box_kinds .text_in_side {
+    font-size: 20px;
+    line-height: 23px;
+    color: #1d3b54;
+    font-weight: 700;
+}
+.shirt_page .quality_shirt .box_kinds .left_side .text_in_side {
+    margin-bottom: 24px;
+}
+.shirt_page .quality_shirt .box_kinds .left_side .text_sub {
+    font-size: 18px;
+    line-height: 21px;
+    color: #1d3b54;
+    font-weight: 400;
+    margin-bottom: 9px;
+}
+.shirt_page .quality_shirt .box_kinds .left_side .item_sub {
+    font-size: 18px;
+    line-height: 21px;
+    color: #1d3b54;
+    font-weight: 700;
+}
+.shirt_page .quality_shirt .box_kinds .left_side .item_sub.another_item {
+    margin-bottom: 3px;
+}
+.shirt_page .quality_shirt .box_kinds .left_side .item_sub:before {
+    content: '';
+    position: absolute;
+    display: block;
+    border-radius: 50%;
+    background-color: #f4cc5b;
+    width: 10px;
+    height: 10px;
+    top: 5px;
+    left: -17px;
+}
+.shirt_page .quality_shirt .box_kinds .left_side .item_sub.after_item:after {
+    content: '';
+    display: block;
+    position: absolute;
+    background-image: url("../img/shirts/arrow_after.svg");
+    width: 88px;
+    height: 65px;
+    background-size: 88px 65px;
+    background-repeat: no-repeat;
+    left: 37px;
+}
+.shirt_page .quality_shirt .box_kinds .right_side .text_in_side {
+    margin-bottom: 14px;
+    text-align: center;
+}
+.shirt_page .quality_shirt .box_kinds .right_side .sizes {
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: 700;
+    color: #1d3b54;
+    padding: 16px 23px;
+    border-radius: 10px;
+    border: 1px solid #1d3b54;
+    text-align: center;
+}
+.shirt_page .quality_shirt .title_kind_main {
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 28px;
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: 700;
+    color: #1d3b54;
+}
+.shirt_page .quality_shirt .box_bottom {
+    display: flex;
+    max-width: 780px;
+    margin: 0 auto;
+    justify-content: space-between;
+    width: 99%;
+}
+.shirt_page .quality_shirt .box_bottom .left_side {
+    text-align: center;
+    max-height: 330px;
+}
+.shirt_page .quality_shirt .box_bottom .left_side .text_main {
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 700;
+    color: #1d3b54;
+    margin-bottom: 2px;
+}
+.shirt_page .quality_shirt .box_bottom .left_side .sub_text {
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 500;
+    color: #1d3b54;
+}
+.shirt_page .quality_shirt .box_bottom .left_side .img_block {
+    width: 257px;
+    height: 230px;
+    position: relative;
+    margin:  3px auto;
+    top: -40px;
+}
+.shirt_page .quality_shirt .box_bottom .left_side .img_block img {
+    width: 100%;
+    max-height: 100%;
+    position: relative;
+    display: block;
+}
+.shirt_page .quality_shirt .box_bottom .left_side .abstext {
+    position: relative;
+    display: block;
+    background-color: #fff;
+    padding: 6px 14px;
+    z-index: 25;
+    text-align: left;
+    max-width: 120px;
+    font-size: 13px;
+    line-height: 16px;
+    color: #1d3b54;
+    font-weight: 500;
+    left: 170px;
+    top: 44px;
+}
+.shirt_page .quality_shirt .box_bottom .left_side .abstext.last_abs_text {
+    top: auto;
+    bottom: 120px;
+}
+.shirt_page .quality_shirt .box_bottom .left_side .last_block_ots {
+    top: -61px;
+}
+.shirt_page .quality_shirt .box_bottom .right_side {
+    text-align: center;
+}
+.shirt_page .quality_shirt .box_bottom .right_side .box_top {
+    min-width: 340px;
+    background-color: #ff992c;
+    padding: 19px 23px 17px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.shirt_page .quality_shirt .box_bottom .right_side .box_top .text_main {
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    font-weight: 700;
+}
+.shirt_page .quality_shirt .box_bottom .right_side .box_top .img_block {
+    width: 151px;
+    height: 58px;
+    position: relative;
+}
+.shirt_page .quality_shirt .box_bottom .right_side .box_top .img_block img {
+    position: relative;
+    display: block;
+    width: 100%;
+    max-height: 100%;
+}
+.shirt_page .quality_shirt .box_bottom .right_side .text_sub {
+    font-size: 13px;
+    line-height: 16px;
+    font-weight: 500;
+    color: #1d3b54;
+    margin: 16px 0;
+}
+.shirt_page .quality_shirt .box_bottom .right_side .lyc_block .img_block {
+    width: 131px;
+    height: 180px;
+    display: inline-block;
+}
+.shirt_page .quality_shirt .box_bottom .right_side .lyc_block .img_block:first-child {
+    margin-right: 5px;
+}
+.shirt_page .quality_shirt .box_bottom .right_side .lyc_block .img_block a {
+    position: relative;
+    display: block;
+    width: 100%;
+    max-height: 100%;
+}
+.shirt_page .quality_shirt .box_bottom .right_side .lyc_block .img_block a img {
+    position: relative;
+    display: block;
+    width: 100%;
+    max-height: 100%;
+}
+.shirt_page .quality_shirt .epm_title {
+    margin-top: 0;
+}
+@media screen and (max-width:750px){
+    .shirt_page .quality_shirt .box_kinds {
+        flex-direction: column;
+        max-width: 280px;
+        width: 100%;
+    }
+    .shirt_page .quality_shirt .box_kinds .left_side {
+        order: 2;
+        margin-top: 38px;
+    }
+    .shirt_page .quality_shirt .box_kinds .left_side .item_sub.after_item::after {
+        display: none;
+    }
+    .shirt_page .quality_shirt .box_bottom {
+        flex-direction: column;
+        max-width: 280px;
+        width: 100%;
+    }
+    .shirt_page .quality_shirt .box_bottom .right_side {
+        margin-top: 26px;
+    }
+    .shirt_page .quality_shirt .box_bottom .right_side .box_top {
+        min-width: 0;
+    }
+    .shirt_page .quality_shirt .box_bottom .right_side .box_top .text_main {
+        font-size: 12px;
+        line-height: 16px;
+    }
+    .shirt_page .quality_shirt .box_bottom .right_side .box_top .img_block {
+        width: 100px;
+        height: 38px;
+    }
+    .shirt_page .quality_shirt .box_bottom .left_side .abstext {
+        left: 160px;
+    }
+}
+
+
+/*catalog_prints*/
+.shirt_page .catalog_prints {
+    padding: 78px 0 0;
+}
+.shirt_page .catalog_prints .title_second {
+    margin-bottom: 45px;
+}
+.shirt_page .catalog_prints .box_catalog {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.shirt_page .catalog_prints .box_catalog .left_side .prints_items {
+    display: grid;
+    grid-template-columns:  1fr 1fr 1fr;
+    -webkit-column-gap: 25px;
+    -moz-column-gap: 25px;
+    column-gap: 25px;
+    grid-row-gap: 25px;
+    margin-bottom: 50px;
+
+}
+.shirt_page .catalog_prints .box_catalog .left_side .prints_items .img_block {
+    width: 160px;
+    height: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.shirt_page .catalog_prints .box_catalog .left_side .prints_items .img_block img {
+    display: block;
+    position: relative;
+    width: auto;
+    max-height: 100%;
+}
+.shirt_page .catalog_prints .box_catalog .right_side {
+    align-self: flex-end;
+    right: 92px;
+}
+.shirt_page .catalog_prints .box_catalog .right_side .img_block {
+    width: 422px;
+    height: 729px;
+}
+.shirt_page .catalog_prints .box_catalog .right_side .img_block img {
+    display: block;
+    position: relative;
+    width: 100%;
+    max-height: 100%;
+}
+.shirt_page .catalog_prints .box_catalog .right_side .abs_item_inside {
+    width: 100px;
+    height: 100px;
+    border: 1px dashed #3089d5;
+    text-align: center;
+    padding: 19px;
+    position: absolute;
+    z-index: 20;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    bottom: 35px;
+    right: -90px;
+}
+.shirt_page .catalog_prints .box_catalog .right_side .abs_item_inside .first_text {
+    font-size: 32px;
+    line-height: 32px;
+    font-weight: 900;
+    color: #3089d5;
+}
+.shirt_page .catalog_prints .box_catalog .right_side .abs_item_inside .second_text {
+    font-size: 38px;
+    line-height: 38px;
+    font-weight: 900;
+    color: #3089d5;
+    margin: 5px auto;
+}
+.shirt_page .catalog_prints .box_catalog .right_side .abs_item_inside .third_text {
+    font-size: 22px;
+    line-height: 22px;
+    font-weight: 900;
+    color: #3089d5;
+}
+.shirt_page .catalog_prints .epm_title {
+    margin-top: 0;
+}
+@media screen and (max-width:1100px){
+    .shirt_page .catalog_prints .box_catalog .right_side {
+        display: none;
+    }
+    .shirt_page .catalog_prints .box_catalog {
+        justify-content: center;
+    }
+    .shirt_page .catalog_prints {
+        padding: 78px 0;
+    }
+}
+@media screen and (max-width:600px){
+    .shirt_page .catalog_prints .box_catalog .left_side .prints_items {
+        grid-template-columns: 1fr 1fr;
+        -webkit-column-gap: 35px;
+        -moz-column-gap: 35px;
+        column-gap: 35px;
+        grid-row-gap: 35px;
+    }
+    .shirt_page .catalog_prints .box_catalog .left_side .prints_items .img_block.last_item {
+        grid-column-start: 1;
+        grid-column-end:   3;
+        width: 100%;
+    }
+}
+@media screen and (max-width:400px){
+    .shirt_page .catalog_prints .box_catalog .left_side .prints_items {
+        grid-template-columns: 1fr;
+        -webkit-column-gap: 0;
+        -moz-column-gap: 0;
+        column-gap: 0;
+        grid-row-gap: 30px;
+    }
+    .shirt_page .catalog_prints .box_catalog .left_side .prints_items .img_block.last_item {
+        grid-column-start: auto;
+        grid-column-end:   auto;
+        width: 100%;
+    }
+    .shirt_page .catalog_prints .box_catalog .left_side .prints_items .img_block {
+        width: 100%;
+    }
+    .shirt_page .button_all {
+        width: 265px;
+    }
+}
+
+
+/*select_block*/
+.shirt_page .select_shirt {
+    padding: 78px 0;
+    background-image: url("../img/shirts/select_bh.png");
+}
+.shirt_page .select_shirt .inner {
+    max-width: 1275px;
+}
+.shirt_page .select_shirt .epm_title {
+    margin-top: 0;
+}
+.shirt_page .select_shirt .catalog_select_shirt {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    column-gap: 20px;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.shirt_page .select_shirt .catalog_select_shirt .item_catalog .title_item {
+    font-size: 20px;
+    line-height: 23px;
+    color: #1d3b54;
+    font-weight: 700;
+    position: relative;
+}
+.shirt_page .select_shirt .catalog_select_shirt .item_catalog .call_but_catalog a {
+    font-size: 18px;
+    line-height: 21px;
+    color: #3089d5;
+    font-weight: 700;
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dashed #0b79c3;
+}
+.shirt_page .select_shirt .catalog_select_shirt .item_catalog .call_but_catalog a:hover {
+    border-bottom: none;
+}
+.shirt_page .select_shirt .catalog_select_shirt .item_catalog .img_block {
+    width: 195px;
+    height: 300px;
+    position: relative;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.shirt_page .select_shirt .catalog_select_shirt .item_catalog .img_block img {
+    max-width: 100%;
+    height: 100%;
+    position: relative;
+    display: block;
+}
+@media screen and (max-width:1280px){
+    .shirt_page .select_shirt .catalog_select_shirt {
+        grid-template-columns: repeat(3, 1fr);
+        grid-row-gap: 30px;
+    }
+}
+@media screen and (max-width:640px){
+    .shirt_page .select_shirt .catalog_select_shirt {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media screen and (max-width:450px){
+    .shirt_page .select_shirt .catalog_select_shirt {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+
+    /*new_tables_block*/
+.corporate_page.price_page .text_after_price_main .bold_text {
+    font-weight: 700;
+}
+.shirt_page .box_buttons {
+    display: flex;
+    justify-content: center;
+}
+.shirt_page .box_buttons .button_all {
+    width: 275px;
+    margin: 0;
+}
+.shirt_page .box_buttons .button_all:first-child {
+    margin-right: 27px;
+    color: #FFFFFF;
+    background-color: #0b79c3;
+}
+.shirt_page .box_buttons .button_all:first-child:hover {
+    background-color: #2a74b3!important;
+}
+@media screen and (max-width:570px){
+    .shirt_page .box_buttons {
+        flex-direction: column;
+        align-items: center;
+    }
+    .shirt_page .box_buttons .button_all:first-child {
+        margin-bottom: 20px;
+        margin-right: 0;
+    }
+}
+.corporate_page.price_page.shirt_page .last_table_title {
+    margin-bottom: 5px;
+}
+.corporate_page.price_page.shirt_page .title_second.another_bold {
+    font-weight: 700;
+    margin-bottom: 45px;
+}
+.corporate_page.price_page.shirt_page .epm_title.new_title {
+    margin-bottom: 45px;
+}
+.corporate_page.price_page.shirt_page .table_last {
+    display: grid;
+    grid-template-columns: 240px 290px 290px 290px;
+    margin-bottom: 63px;
+}
+.corporate_page.price_page.shirt_page .table_last .abs_colors {
+    font-size: 16px;
+    line-height: 20px;
+    color: #1d3b54;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    width: 200px;
+    justify-content: space-between;
+    background-color: rgba(255, 255, 255, 0.88);
+    position: absolute;
+    top: 73%;
+}
+.corporate_page.price_page.shirt_page .table_last .item_table .abs_colors .img_block {
+    width: 32px;
+    height: 32px;
+}
+.corporate_page.price_page.shirt_page .table_last .item_table .abs_colors .img_block img {
+    position: relative;
+    display: block;
+    width: 100%;
+    max-height: 100%;
+}
+.corporate_page.price_page.shirt_page .table_last .item_table .abs_text_main {
+    font-size: 22px;
+    line-height: 22px;
+    font-weight: 700;
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    top: 45%;
+    color: #1d3b54;
+}
+.corporate_page.price_page.shirt_page .table_last .item_table .abs_text_main.another_color {
+    color: #FFFFFF;
+}
+.corporate_page.price_page.shirt_page .table_last .item_table {
+    /*border: 1px dashed #1d3b54;*/
+    padding: 26px 11px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.corporate_page.price_page.shirt_page .table_last .item_table .img_block {
+    width: 265px;
+    height: 279px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.corporate_page.price_page.shirt_page .table_last .item_table .img_block img {
+    width: auto;
+    max-height: 100%;
+    position: relative;
+    display: block;
+}
+.corporate_page.price_page.shirt_page .table_last .item_table.first_item {
+    grid-column-start: 2;
+    grid-column-end:   3;
+}
+.corporate_page.price_page.shirt_page .table_last .item_table.second_item {
+    grid-column-start: 3;
+    grid-column-end:   4;
+}
+.corporate_page.price_page.shirt_page .table_last .item_table.third_item {
+    grid-column-start: 4;
+    grid-column-end:   5;
+}
+.corporate_page.price_page.shirt_page .table_last .item_table .subtitle_table {
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 700;
+    color: #1d3b54;
+    text-align: center;
+}
+.corporate_page.price_page.shirt_page .table_last .item_table.grey_item {
+    background-color: #dedede;
+}
+.corporate_page.price_page.shirt_page .table_last .item_table .empty_line {
+    width: 30px;
+    height: 2px;
+    background-color: #1d3b54;
+}
+.corporate_page.price_page.shirt_page .table_last .item_table .subtexttitle_table {
+    font-weight: 400;
+    text-align: center;
+    margin-top: 5px;
+    line-height: 20px;
+}
+.corporate_page.price_page.shirt_page .table_last .item_table.another_item_dop {
+    flex-direction: column;
+}
+
+
+
+
+/*first_table_shirts*/
+.corporate_page.price_page.shirt_page .first_table_shirts {
+    display: grid;
+    grid-template-columns: 280px 315px repeat(6 , 1fr);
+    position: relative;
+    grid-template-rows: 101px 110px 110px 110px;
+}
+.corporate_page.price_page.shirt_page .first_table_shirts .item_table_first {
+    /*border: 1px dashed #1d3b54;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 700;
+    position: relative;
+    color: #1d3b54;
+}
+.corporate_page.price_page.shirt_page .first_table_shirts .item_table_first.one_item {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    padding: 0;
+    position: relative;
+}
+.corporate_page.price_page.shirt_page .first_table_shirts .item_table_first.two_item {
+    grid-column-start: 3;
+    grid-column-end: 9;
+    flex-direction: column;
+    padding: 0;
+    position: relative;
+}
+.corporate_page.price_page.shirt_page .first_table_shirts .item_table_first .sub_item_one {
+    /*border-bottom: 1px dashed #1d3b54;*/
+    width: 100%;
+    padding: 15px 0;
+    position: relative;
+}
+.corporate_page.price_page.shirt_page .first_table_shirts .item_table_first .sub_item_two {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(6 , 1fr);
+    position: relative;
+}
+.corporate_page.price_page.shirt_page .first_table_shirts .item_table_first .sub_item_two .item_sub_item_two {
+    font-size: 18px;
+    line-height: 18px;
+    font-weight: 400;
+    /*border-right: 1px dashed #1d3b54;*/
+    padding: 15px 0;
+    position: relative;
+}
+.corporate_page.price_page.shirt_page .first_table_shirts .item_table_first .sub_item_two .item_sub_item_two:last-child {
+    border-right: none;
+}
+.corporate_page.price_page.shirt_page .first_table_shirts .item_table_first .img_block_big {
+    width: 160px;
+    height: 168px;
+    position: relative;
+    margin-top: 13px;
+}
+.corporate_page.price_page.shirt_page .first_table_shirts .item_table_first .img_block_big img {
+    position: relative;
+    display: block;
+    max-height: 100%;
+    max-width: 100%;
+}
+.corporate_page.price_page.shirt_page .first_table_shirts .item_table_first.main_table {
+    flex-direction: column;
+    grid-row-start:    2;
+    grid-row-end:      5;
+}
+.corporate_page.price_page.shirt_page .first_table_shirts .item_table_first .colors_block {
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 400;
+    color: #1d3b54;
+    position: relative;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.corporate_page.price_page.shirt_page .first_table_shirts .item_table_first .colors_block .img_block {
+    width: 32px;
+    height: 32px;
+    position: relative;
+    margin-left: 4px;
+}
+.corporate_page.price_page.shirt_page .first_table_shirts .item_table_first .colors_block .img_block img {
+    width: 100%;
+    max-height: 100%;
+    position: relative;
+    display: block;
+}
+.corporate_page.price_page.shirt_page .first_table_shirts .item_table_first .img_block_sub {
+    width: 85px;
+    height: 78px;
+    position: relative;
+}
+.corporate_page.price_page.shirt_page .first_table_shirts .item_table_first .img_block_sub img {
+    max-width: 100%;
+    height: 100%;
+    position: relative;
+    display: block;
+}
+.corporate_page.price_page.shirt_page .first_table_shirts .item_table_first .text_block .sub_text {
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: 400;
+    margin-top: 5px;
+    position: relative;
+}
+.corporate_page.price_page.shirt_page .first_table_shirts .item_table_first .text_block {
+    margin-left: 20px;
+    text-align: left;
+    width: 153px;
+}
+.corporate_page.price_page.shirt_page .first_table_shirts .item_table_first.grey_item {
+    background-color: #dedede;
+}
+.corporate_page.price_page.shirt_page .first_table_shirts .item_table_first.another_flex {
+    padding: 0;
+}
+.corporate_page.price_page.shirt_page .first_table_shirts .item_table_first .text_block .sub_text.xit_block:after {
+    content: 'хит';
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 500;
+    position: absolute;
+    display: block;
+    background-color: #e50f0f;
+    border-radius: 50%;
+    width: 53px;
+    height: 24px;
+    text-align: center;
+    top: 0;
+    left: 80px;
+}
+.corporate_page.price_page.shirt_page .first_table_shirts .separate_line {
+    height: 5px;
+    width: 100%;
+    background-color: #9d9f9e;
+    grid-column-start: 1;
+    grid-column-end:   9;
+}
+.corporate_page.price_page.shirt_page .first_table_shirts .item_table_first.last_item_without_border {
+    border-bottom: none;
+}
+
+/*second_table_first*/
+.corporate_page.price_page.shirt_page .first_table_shirts .item_table_first.last_item_without_top_border {
+    border-top: none;
+}
+.corporate_page.price_page.shirt_page .first_table_shirts.second_table_first .item_table_first.main_table {
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+.corporate_page.price_page.shirt_page .first_table_shirts.second_table_first {
+    grid-template-rows: 160px 160px;
+    margin-bottom: 40px;
+}
+
+/*third_table_first*/
+.corporate_page.price_page.shirt_page .first_table_shirts.third_table_first .item_table_first.main_table {
+    grid-row-start: 1;
+    grid-row-end: 6;
+}
+.corporate_page.price_page.shirt_page .first_table_shirts.third_table_first {
+    grid-template-rows: 110px 110px 110px 110px 110px;
+}
+.corporate_page.price_page.shirt_page .first_table_shirts.third_table_first .item_table_first.big_item {
+    grid-column-start: 5;
+    grid-column-end:   9;
+}
+.corporate_page.price_page.shirt_page .first_table_shirts .item_table_first.main_table .text_main_table_second {
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: 400;
+    margin-top: 4px;
+    margin-bottom: 12px;
+}
+.corporate_page.price_page.shirt_page .first_table_shirts .plenka_block {
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: 700;
+    margin-top: 20px;
+    background-color: #dedede;
+    width: 187px;
+    padding: 10px 0 15px;
+    text-align: center;
+}
+.corporate_page.price_page.shirt_page .first_table_shirts .plenka_block .big_box_plenka {
+    margin: 7px auto 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.corporate_page.price_page.shirt_page .first_table_shirts .plenka_block .box_colors_plenka {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 115px;
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: 400;
+}
+.corporate_page.price_page.shirt_page .first_table_shirts .plenka_block .box_colors_plenka:last-child {
+    margin-top: 5px;
+}
+.corporate_page.price_page.shirt_page .first_table_shirts .plenka_block .box_colors_plenka .color_item1 {
+    background-color: #FFFFFF;
+    border-radius: 50%;
+}
+.corporate_page.price_page.shirt_page .first_table_shirts .plenka_block .box_colors_plenka div {
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+}
+.corporate_page.price_page.shirt_page .first_table_shirts .plenka_block .box_colors_plenka .color_item2 {
+    background-color: #2e2e2f;
+    border-radius: 50%;
+}
+.corporate_page.price_page.shirt_page .first_table_shirts .plenka_block .box_colors_plenka .color_item3 {
+    background-color: #e50f0f;
+    border-radius: 50%;
+}
+.corporate_page.price_page.shirt_page .first_table_shirts .plenka_block .box_colors_plenka .color_item4 {
+    background-color: #3089d5;
+    border-radius: 50%;
+}
+.corporate_page.price_page.shirt_page .first_table_shirts .plenka_block .box_colors_plenka .color_item5 {
+    background-color: #3bb43b;
+    border-radius: 50%;
+}
+.corporate_page.price_page.shirt_page .first_table_shirts .plenka_block .box_colors_plenka .color_item6 {
+    background-color: #1d3b54;
+    border-radius: 50%;
+}
+.corporate_page.price_page.shirt_page .first_table_shirts .plenka_block .box_colors_plenka .color_item7 {
+    background-color: #969696;
+    border-radius: 50%;
+}
+.corporate_page.price_page.shirt_page .first_table_shirts .plenka_block .box_colors_plenka .color_item8 {
+    background-color: #f8f810;
+    border-radius: 50%;
+}
+.corporate_page.price_page.shirt_page .first_table_shirts .plenka_block .box_colors_plenka .color_item9 {
+    background-color: #7b5536;
+    border-radius: 50%;
+}
+
+
+
+/*borders*/
+.bord_top {border-top: 1px dashed #1d3b54;}
+.bord_left {border-left: 1px dashed #1d3b54;}
+.bord_right {border-right: 1px dashed #1d3b54;}
+.bord_bot {border-bottom: 1px dashed #1d3b54;}
+
+/*bugfix_chome*/
+.epm_zakaz .block li input[type="file"] {z-index: 250;}
+.epm_zakaz .block li input[type="file"]:after {
+    content: "";
+    background-color: #FFFFFF;
+    position: absolute;
+    width: 200px;
+    height: 10px;
+    left: 65px;
+}
+
+
+
+
+
+
+
+

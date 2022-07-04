@@ -1,0 +1,720 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <!-- Font Awesome Icon Library -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="css/style.min.css">
+  <title>AND</title>
+</head>
+<header class="header-3 common-header">
+  <div class="container">
+    <div class="header">
+      <a href="#"><img src="images/logo.png" alt="AMD" class="header__logo logo"></a>
+      <div class="header__wrap">
+        <nav class="header__navigation">
+          <ul class="header__menu">
+            <li class="header__item"><a href="index.html" class="header__item-link">О товаре</a></li>
+            <li class="header__item"><a href="index2.html" class="header__item-link">Где купить</a></li>
+            <li class="header__item"><a href="index3.html" class="header__item-link">Помощь</a></li>
+            <li class="header__item"><a href="#" class="header__item-link">Контакты</a></li>
+          </ul>
+        </nav>
+        <div class="header__phone">
+          <a href="tel: 8(800)2000380" class="phone-number">
+            <svg width="23" height="23" viewBox="0 0 23 23" class="phone-icon">
+              <path
+                d="M21.1209 22.5C9.39076 22.5165 0.487638 13.5075 0.500013 1.87912C0.500013 1.11875 1.11601 0.5 1.87501 0.5H5.50501C6.18564 0.5 6.76451 1.0005 6.86489 1.67425C7.10428 3.28995 7.57428 4.86294 8.26051 6.34513L8.40214 6.65037C8.49727 6.85579 8.51774 7.08796 8.46 7.30685C8.40227 7.52573 8.26996 7.71761 8.08589 7.84938C6.96114 8.65238 6.53214 10.268 7.40801 11.5275C8.50664 13.1088 9.89126 14.4948 11.4725 15.5934C12.7334 16.4679 14.349 16.0389 15.1506 14.9155C15.2823 14.7309 15.4743 14.5981 15.6935 14.5401C15.9127 14.4821 16.1453 14.5025 16.351 14.5979L16.6549 14.7381C18.1371 15.4256 19.7101 15.8959 21.3258 16.1351C21.9995 16.2355 22.5 16.8144 22.5 17.4964V21.125C22.5 21.3057 22.4644 21.4846 22.3952 21.6515C22.326 21.8184 22.2246 21.9701 22.0968 22.0978C21.969 22.2255 21.8172 22.3267 21.6502 22.3957C21.4833 22.4648 21.3043 22.5002 21.1236 22.5H21.1209Z" />
+            </svg>
+            8 800 200-03-80
+          </a>
+        </div>
+        <div class="header__social-web social-web">
+          <a href="#" class="header__social-link">
+            <svg width="39" height="39" viewBox="0 0 39 39">
+              <circle cx="19.5" cy="19.5" r="19.5" fill="#4489C8" />
+              <g clip-path="url(#clip0)">
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M25.3176 20.4107C25.8536 20.9159 26.4193 21.3913 26.9 21.9475C27.1123 22.1946 27.3133 22.4496 27.4671 22.7365C27.685 23.1442 27.4877 23.5929 27.109 23.6172L24.7552 23.6162C24.1481 23.6649 23.6638 23.4289 23.2566 23.0281C22.9307 22.7076 22.6289 22.3665 22.3155 22.0352C22.1871 21.8998 22.0526 21.7724 21.892 21.6716C21.5706 21.4703 21.2917 21.5319 21.1081 21.8555C20.9211 22.1846 20.8787 22.549 20.8603 22.9158C20.8351 23.451 20.6675 23.5917 20.1108 23.6162C18.9209 23.6703 17.7917 23.4965 16.7427 22.917C15.8178 22.4061 15.1006 21.6848 14.4764 20.8683C13.261 19.2783 12.3302 17.5312 11.4937 15.7351C11.3054 15.3304 11.4431 15.1132 11.9055 15.1055C12.6734 15.0911 13.4412 15.0921 14.21 15.1045C14.5221 15.1089 14.7287 15.2817 14.8492 15.5664C15.2646 16.5527 15.773 17.4911 16.4111 18.3609C16.581 18.5924 16.7543 18.824 17.001 18.987C17.274 19.1675 17.4818 19.1077 17.6102 18.8141C17.6917 18.6279 17.7274 18.4274 17.7458 18.228C17.8066 17.5421 17.8146 16.8573 17.7079 16.1738C17.6424 15.7472 17.3935 15.471 16.9527 15.3903C16.7277 15.3491 16.7612 15.2683 16.8701 15.1443C17.0593 14.9305 17.2373 14.7974 17.592 14.7974H20.2521C20.6709 14.8772 20.7639 15.0588 20.8213 15.4657L20.8236 18.3187C20.819 18.4762 20.905 18.9436 21.1989 19.0478C21.434 19.1221 21.5891 18.9404 21.7302 18.7964C22.3671 18.1438 22.8217 17.3724 23.2278 16.5737C23.408 16.2225 23.5629 15.8578 23.7131 15.4934C23.8244 15.2229 23.999 15.0899 24.3145 15.0958L26.8747 15.098C26.9507 15.098 27.0275 15.0991 27.101 15.1112C27.5324 15.1822 27.6506 15.3614 27.5174 15.7681C27.3074 16.4063 26.8989 16.9381 26.4995 17.4724C26.0726 18.0428 25.6159 18.5937 25.1925 19.1675C24.8035 19.6915 24.8344 19.9556 25.3176 20.4107Z"
+                  fill="white" />
+              </g>
+              <defs>
+                <clipPath id="clip0">
+                  <rect width="16.1571" height="15.6" fill="white" transform="translate(11.4121 11.4116)" />
+                </clipPath>
+              </defs>
+            </svg>
+          </a>
+          <a href="#" class="header__social-link">
+            <svg width="39" height="39" viewBox="0 0 39 39">
+              <circle cx="19.5" cy="19.5" r="19.5" fill="#3B5998" />
+              <g clip-path="url(#clip0)">
+                <path
+                  d="M23.6516 11.4149L21.6571 11.4116C19.4164 11.4116 17.9684 12.9185 17.9684 15.2508V17.0209H15.963C15.7897 17.0209 15.6494 17.1634 15.6494 17.3392V19.9039C15.6494 20.0796 15.7899 20.222 15.963 20.222H17.9684V26.6935C17.9684 26.8693 18.1087 27.0116 18.282 27.0116H20.8984C21.0716 27.0116 21.212 26.8691 21.212 26.6935V20.222H23.5567C23.73 20.222 23.8703 20.0796 23.8703 19.9039L23.8712 17.3392C23.8712 17.2548 23.8381 17.174 23.7794 17.1142C23.7207 17.0545 23.6407 17.0209 23.5575 17.0209H21.212V15.5204C21.212 14.7991 21.3814 14.433 22.3077 14.433L23.6512 14.4325C23.8244 14.4325 23.9647 14.29 23.9647 14.1144V11.733C23.9647 11.5575 23.8245 11.4152 23.6516 11.4149Z"
+                  fill="white" />
+              </g>
+              <defs>
+                <clipPath id="clip0">
+                  <rect width="15.3803" height="15.6" fill="white" transform="translate(12.1162 11.4116)" />
+                </clipPath>
+              </defs>
+            </svg>
+          </a>
+          <a href="#" class="header__social-link">
+            <svg id="Layer_1" style="enable-background:new 0 0 32 32;" version="1.1" viewBox="0 0 32 32"
+              xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+              <style type="text/css">
+                .st0 {
+                  fill: url(#SVGID_1_);
+                }
+
+                .st1 {
+                  fill: #FFFFFF;
+                }
+              </style>
+              <g>
+                <linearGradient gradientTransform="matrix(16.0027 -27.7174 27.7174 16.0027 -878.9595 -482.2268)"
+                  gradientUnits="userSpaceOnUse" id="SVGID_1_" x1="-1.206969e-06" x2="1" y1="32" y2="32">
+                  <stop offset="0" style="stop-color:#FEC053" />
+                  <stop offset="0.327" style="stop-color:#F2203E" />
+                  <stop offset="0.648" style="stop-color:#B729A8" />
+                  <stop offset="1" style="stop-color:#5342D6" />
+                </linearGradient>
+                <path class="st0"
+                  d="M16,0L16,0c8.8,0,16,7.2,16,16c0,8.8-7.2,16-16,16C7.2,32,0,24.8,0,16C0,7.2,7.2,0,16,0z" />
+                <path class="st1"
+                  d="M20.7,6h-9.5C8.3,6,6,8.4,6,11.4v9.2c0,2.9,2.3,5.3,5.3,5.4h9.5c2.9,0,5.3-2.4,5.3-5.4v-9.2   C26,8.4,23.7,6,20.7,6z M24.2,20.5c0,2-1.6,3.7-3.7,3.7h-9.1c-2,0-3.7-1.7-3.6-3.7v-9c0-2,1.6-3.7,3.6-3.7h9.1c2,0,3.7,1.7,3.7,3.7   V20.5z" />
+                <path class="st1"
+                  d="M16,10.9c-2.8-0.1-5.2,2.2-5.2,5c-0.1,2.8,2.2,5.2,5,5.2s5.2-2.2,5.2-5l0-0.1C21.1,13.2,18.8,10.9,16,10.9z    M16,19.3c-1.8,0-3.3-1.4-3.4-3.2c0-1.8,1.4-3.3,3.2-3.4s3.3,1.4,3.4,3.2l0,0.1C19.3,17.8,17.8,19.3,16,19.3z" />
+                <path class="st1"
+                  d="M21.3,9.4c0.6,0,1.1,0.5,1.1,1.2s-0.5,1.2-1.1,1.2s-1.1-0.5-1.1-1.2S20.7,9.4,21.3,9.4z" />
+              </g>
+            </svg>
+          </a>
+        </div>
+      </div>
+      <div class="header__menu-icon">
+        <svg class="ham ham3" viewBox="0 0 100 100" width="80" onclick="this.classList.toggle('active')">
+          <path class="line top"
+            d="m 70,33 h -40 c -11.092231,0 11.883874,13.496726 -3.420361,12.956839 -0.962502,-2.089471 -2.222071,-3.282996 -4.545687,-3.282996 -2.323616,0 -5.113897,2.622752 -5.113897,7.071068 0,4.448316 2.080609,7.007933 5.555839,7.007933 2.401943,0 2.96769,-1.283974 4.166879,-3.282995 2.209342,0.273823 4.031294,1.642466 5.857227,-0.252538 v -13.005715 16.288404 h 7.653568" />
+          <path class="line middle"
+            d="m 70,50 h -40 c -5.6862,0 -8.534259,5.373483 -8.534259,11.551069 0,7.187738 3.499166,10.922274 13.131984,10.922274 11.021777,0 7.022787,-15.773343 15.531095,-15.773343 3.268142,0 5.177031,-2.159429 5.177031,-6.7 0,-4.540571 -1.766442,-7.33533 -5.087851,-7.326157 -3.321409,0.0092 -5.771288,2.789632 -5.771288,7.326157 0,4.536525 2.478983,6.805271 5.771288,6.7" />
+          <path class="line bottom"
+            d="m 70,67 h -40 c 0,0 -3.680675,0.737051 -3.660714,-3.517857 0.02541,-5.415597 3.391687,-10.357143 10.982142,-10.357143 4.048418,0 17.88928,0.178572 23.482143,0.178572 0,2.563604 2.451177,3.403635 4.642857,3.392857 2.19168,-0.01078 4.373905,-1.369814 4.375,-3.392857 0.0011,-2.023043 -1.924401,-2.589191 -4.553571,-4.107143 -2.62917,-1.517952 -4.196429,-1.799562 -4.196429,-3.660714 0,-1.861153 2.442181,-3.118811 4.196429,-3.035715 1.754248,0.0831 4.375,0.890841 4.375,3.125 2.628634,0 6.160714,0.267857 6.160714,0.267857 l -0.178571,-2.946428 10.178571,0 -10.178571,0 v 6.696428 l 8.928571,0 -8.928571,0 v 7.142858 l 10.178571,0 -10.178571,0" />
+        </svg>
+      </div>
+    </div>
+    <div class="about">
+      Производитель медицинской техники №1 в России
+    </div>
+    <div class="offer">
+      <h1 class="offer__title">Ингалятор<span class="offer__title-different">компрессорный cn-233</span></h1>
+      <p class="offer__subtitle">Быстро и мягко доставит лекарство прямо в лёгкие</p>
+      <div class="offer__button-wrap">
+        <a href="#" class="offer__btn btn buy-button">Купить сейчас</a>
+        <a href="#" class="offer__btn btn">Узнать подробнее</a>
+        <a href="#" class="offer__btn btn">Посмотреть видеоинструкцию</a>
+      </div>
+      <p class="offer__postscript offer__postscript-3">
+        * По данным «Национального фармацевтического рейтинга — 2019» по объёму продаж в
+        аптечных организациях РФ (в рублях).
+      </p>
+    </div>
+  </div>
+</header>
+<section id="advantages">
+  <div class="container">
+    <ul class="advantages__list">
+      <li class="advantages__item">
+        <div class="advantages__image-wrap wow">
+          <img src="images/click-icon.svg" alt="Click-icon" class="advantages__image wow fadeIn">
+        </div>
+        <ul class="advantages__items-list wow fadeInUp">
+          <li class="advantages__items-enum">
+            Легкое управление
+            с помощью одной кнопки
+
+          </li>
+        </ul>
+      </li>
+      <li class="advantages__item">
+        <div class="advantages__image-wrap wow">
+          <img src="images/overheating.svg" alt="Heart" class="advantages__image wow fadeIn">
+        </div>
+        <ul class="advantages__items-list wow fadeInUp">
+          <li class="advantages__items-enum">
+            Функция защиты компрессора от перегрева
+
+          </li>
+        </ul>
+      </li>
+      <li class="advantages__item">
+        <div class="advantages__image-wrap wow">
+          <img src="images/mask.svg" alt="Mask" class="advantages__image wow fadeIn">
+        </div>
+        <ul class="advantages__items-list wow fadeInUp">
+          <li class="advantages__items-enum">
+            Наличие взрослой и детской масок в комплекте
+          </li>
+          <li class="advantages__items-enum">
+            Удобный кейс для хранения и транспортировки
+          </li>
+        </ul>
+      </li>
+      <li class="advantages__item">
+        <div class="advantages__image-wrap wow">
+          <img src="images/5-year.svg" alt="Years" class="advantages__image wow fadeIn">
+        </div>
+        <ul class="advantages__items-list wow fadeInUp">
+          <li class="advantages__items-enum">
+            Гарантия на основной блок — 5 лет
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+</section>
+<section id="opportunities">
+  <div class="container">
+    <div class="opportunities__box">
+      <ul class="opportunities__list">
+        <li class="opportunities__item">
+          <img src="images/characteristic9.svg" alt="Characteristic" class="opportunities__img">
+          <p class="opportunities__text">Применяется при широком спектре заболеваний, в том числе ларингите,
+            ларинготрахеите, бронхите, хронической обструктивной болезни лёгких, бронхиальной астме, ОРВИ, пневмонии.
+          </p>
+        </li>
+        <li class="opportunities__item">
+          <img src="images/characteristic10.svg" alt="Characteristic" class="opportunities__img">
+          <p class="opportunities__text">Для лечения заболеваний всех отделов дыхательных путей: верхних и нижних.
+          </p>
+        </li>
+        <li class="opportunities__item">
+          <img src="images/characteristic11.svg" alt="Characteristic" class="opportunities__img">
+          <p class="opportunities__text">С функцией защиты компрессора от перегрева.
+          </p>
+        </li>
+        <li class="opportunities__item">
+          <img src="images/characteristic12.svg" alt="Characteristic" class="opportunities__img">
+          <p class="opportunities__text">Оптимальное питание от сети.
+          </p>
+        </li>
+        <li class="opportunities__item">
+          <img src="images/characteristic13.svg" alt="Characteristic" class="opportunities__img">
+          <p class="opportunities__text">Ёмкость для лекарств вмещает до 6 мл лекарственного препарата.
+          </p>
+        </li>
+        <li class="opportunities__item">
+          <img src="images/characteristic14.svg" alt="Characteristic" class="opportunities__img">
+          <p class="opportunities__text">Можно использовать для экспресс-диагностики общего состояния работы сердца.
+          </p>
+        </li>
+        <p class="opportunities__postscript">** Ингалятор произведен в соответствии с Европейским стандартом EN 13544-1.
+        </p>
+      </ul>
+      <div class="opportunities__product opportunities__product-3">
+        <img src="images/inhaler.png" alt="Inhaler" class="opportunities__product-image">
+        <p class="opportunities__product-text">Компрессорный ингалятор
+          AND CN-233 </p>
+        <a href="#" class="opportunities__btn btn buy-button">Купить сейчас</a>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="comparison">
+  <div class="container">
+    <div class="equipment">
+      <div class="equipment__img-wrap">
+        <img src="images/equipment.png" alt="Equipment">
+      </div>
+      <table class="table">
+        <tr class="table__row table__row_first">
+          <th>
+            <h2 class="comparison__title">Комплектация:</h2>
+          </th>
+        </tr>
+        <tr class=" table__row table__row_second wow fadeInUp">
+          <td class="table__cell">Основной блок</td>
+          <td class="table__cell fw"><img src="images/plus.svg" alt="Plus"></td>
+        </tr>
+        <tr class="table__row wow fadeInUp">
+          <td class="table__cell">Трубка соединительная</td>
+          <td class="table__cell fw"><img src="images/plus.svg" alt="Plus"></td>
+        </tr>
+        <tr class="table__row wow fadeInUp">
+          <td class="table__cell">Маска респираторная для взрослых</td>
+          <td class="table__cell fw"><img src="images/plus.svg" alt="Plus"></td>
+        </tr>
+        <tr class="table__row wow fadeInUp">
+          <td class="table__cell">Маска респираторная для детей</td>
+          <td class="table__cell fw"><img src="images/plus.svg" alt="Plus"></td>
+        </tr>
+
+        <tr class="table__row wow fadeInUp">
+          <td class="table__cell">Фильтр воздушный</td>
+          <td class="table__cell fw">5 шт.</td>
+        </tr>
+        <tr class="table__row wow fadeInUp">
+          <td class="table__cell">Насадка для рта</td>
+          <td class="table__cell fw"><img src="images/plus.svg" alt="Plus"></td>
+        </tr>
+        <tr class="table__row wow fadeInUp">
+          <td class="table__cell">Ёмкость для лекарства</td>
+          <td class="table__cell fw"><img src="images/plus.svg" alt="Plus"></td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="comparison__buttons">
+      <a href="#" id="btn-more-1" class="comparison__btn btn more-btn">Подробнее
+        <svg width="17" height="17" viewBox="0 0 17 17" class="arrows">
+          <path d="M2.42857 0L8.5 5.98988L14.5714 0L17 1.19798L8.5 9.5838L0 1.19798L2.42857 0Z" fill="white" />
+          <path d="M2.42857 7.41602L8.5 13.4059L14.5714 7.41602L17 8.61399L8.5 16.9998L0 8.61399L2.42857 7.41602Z"
+            fill="white" />
+        </svg>
+      </a>
+    </div>
+</section>
+<section id="manual">
+  <div class="container">
+    <div class="btn-more-text btn-more-text-1 visible">
+      <h3 class="manual__title">Автоматический UA-777 cо стандартной манжетой 22–32 см и сетевым адаптером</h3>
+      <div id="crossing">
+        <ul class="crossing__list">
+          <li class="crossing__item">
+            <div class="crossing__img-wrap">
+            </div>
+            <p class="crossing__text">Держите давление под контролем с точным автоматическим тонометром* UA-777 со
+              стандартной манжетой 22–32 см, системой интеллектуального управления Intellitronics, памятью на 90
+              измерений, индикатором частоты проявления аритмии, индикатором движения во время измерения и индикатором
+              положения манжеты.
+            </p>
+          </li>
+
+          <li class="crossing__item">
+            <div class="crossing__img-wrap">
+            </div>
+            <p class="crossing__text">Индикатор положения манжеты подскажет, если манжета неплотно надета на руку.
+            </p>
+          </li>
+          <li class="crossing__item">
+            <div class="crossing__img-wrap">
+            </div>
+            <p class="crossing__text">Индикатор аритмии сообщит о возможных нарушениях нормальной частоты или
+              периодичности сердечных сокращений во время измерения.
+              Индикатор частоты проявления аритмии покажет частоту проявления нарушений частоты
+              или периодичности
+              сердечных сокращений, в процентах (%).
+            </p>
+          </li>
+          <li class="crossing__item">
+            <div class="crossing__img-wrap">
+            </div>
+            <p class="crossing__text">Графический индикатор диагностики по классификации артериального давления,
+              принятой
+              Всемирной организацией здравоохранения, отобразит величину текущего артериального давления после
+              измерения.
+              Каждый сегмент соответствует классификации артериального давления, принятой ВОЗ.
+              Данные памяти покажут среднее значение давления за все сохранённые измерения, результат последнего
+              измерения, его порядковый номер, а также все предыдущие измерения, занесённые в память прибора.
+            </p>
+          </li>
+          <li class="crossing__item">
+            <div class="crossing__img-wrap">
+            </div>
+            <div class="crossing__text-wrapper">
+              <p class="crossing__text">Гарантия на основной блок в корпусе тонометра UA-777 составляет 10 лет***. Такая
+                длительная гарантия возможна, когда качество материалов, надёжные инженерные решения и точная сборка
+                находятся под контролем компании-производителя.
+              <p class="crossing__text">Тонометр UА-777 разработан компанией ЭЙ энд ДИ.</p>
+              <p class="crossing__text">Компания ЭЙ энд ДИ — производитель медицинской техники № 1 в России**.</p>
+              <p class="crossing__text">Продукция ЭЙ энд ДИ — это высокое качество и точный выбор! ЭЙ энд ДИ. Выбирайте
+                точность!</p>
+              </p>
+              <p class="crossing__text retreat">* Прошёл валидацию точности по протоколу ESH (Европейское общество по
+                артериальной
+                гипертонии) под международным названием модели UA767S.</p>
+              </p>
+              <p class="crossing__text">** По данным «Национального фармацевтического рейтинга — 2019» по объёму продаж
+                в
+                аптечных организациях РФ (в рублях)</p>
+              </p>
+              <p class="crossing__text">*** Гарантия на основной блок в корпусе. </p>
+              </p>
+            </div>
+          </li>
+
+          <li id="control" class="control-1">
+            <p class="control-text">
+              развернуть
+            </p>
+            <svg width="17" height="17" viewBox="0 0 17 17" id="arrows-up">
+              <path d="M14.5714 17L8.5 11.0101L2.42857 17L1.90735e-06 15.802L8.5 7.4162L17 15.802L14.5714 17Z" />
+              <path
+                d="M14.5714 9.58398L8.5 3.59411L2.42857 9.58398L1.90735e-06 8.38601L8.5 0.000184059L17 8.38601L14.5714 9.58398Z" />
+            </svg>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="video">
+  <div class="container">
+    <div class="video-wrapper">
+      <div class="video-wrapper__video-clip">
+        <h3 class="video-wrapper__title">Видеоинструкция</h3>
+        <video id="player-1" playsinline controls data-poster="images/video1.jpg">
+          <source src="video/Fall.mp4" type="video/mp4" />
+          <source src="video/Fall.webm" type="video/webm" />
+        
+          <!-- Captions are optional -->
+          <track kind="captions" label="English captions" src="images/video1.jpg" srclang="en" default />
+        </video>
+
+      </div>
+      <div class="video-wrapper__video-clip">
+        <h3 class="video-wrapper__title">Ролик UA-777</h3>
+        <video id="player-2" playsinline controls data-poster="images/video1.jpg">
+          <source src="video/Fall.mp4" type="video/mp4" />
+          <source src="video/Fall.webm" type="video/webm" />
+        
+          <!-- Captions are optional -->
+          <track kind="captions" label="English captions" src="images/video1.jpg" srclang="en" default />
+        </video>
+      </div>
+     
+    </div>
+  </div>
+</section>
+<section id="description">
+  <div class="container">
+    <div class="description__block">
+      <span class="description__main">
+        Компания A&D (Эй энд Ди) — это крупная международная компания-производитель с
+        головным офисом в Токио (Япония) и дочерними предприятиями по всему миру.
+      </span>
+      <p class="description__text">
+        Специализация A&D — технологии, позволяющие преобразовывать аналоговые сигналы в их
+        точное цифровое значение, отсюда название — A&D (Analog & Digital).
+      </p>
+      <p class="description__text description__text_down">
+        Производитель медицинской техники № 1 в России**
+        <span class="description__text-meaning">
+          * По данным «Национального фармацевтического рейтинга — 2019» по объёму продаж в аптечных организациях РФ (в
+          рублях).
+        </span>
+      </p>
+
+      <a href="#" class="description__button btn">Перейти на сайт</a>
+    </div>
+  </div>
+</section>
+<section id="location">
+  <div class="container">
+    <div class="location__wrapper">
+      <div class="location__img-block">
+        <img src="images/inhaler2.png" alt="Inhaler">
+        <p class="location__product-name">
+          Ингалятор компрессорный CN-233
+        </p>
+      </div>
+      <ul class="location__list location__list-3">
+        <li class="location__item location__item-3">
+          <div class="location__wrapper-more">
+            <a href="#" class="location__btn-more">
+              <svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M4.85714 0L17 11.9798L29.1429 0L34 2.39595L17 19.1676L0 2.39595L4.85714 0Z" fill="#E5E5E5" />
+                <path d="M4.85714 14.832L17 26.8118L29.1429 14.832L34 17.228L17 33.9996L0 17.228L4.85714 14.832Z"
+                  fill="#E5E5E5" />
+              </svg>
+            </a>
+            <ul class="location__shop-list">
+              <li class="location__shop-item">
+                <div class="location__shop-img"><img src="images/Wildberries.png" alt="Wildberries"></div>
+                <span class="fw">5 000 руб.</span>
+                <a href="#" class="location__btn btn buy-button">Купить</a>
+              </li>
+              <li class="location__shop-item">
+                <div class="location__shop-img"><img src="images/ozon.png" alt="Ozon"></div>
+                <span class="fw">5 000 руб.</span>
+                <a href="#" class="location__btn btn buy-button">Купить</a>
+              </li>
+              <li class="location__shop-item">
+                <div class="location__shop-img"><img src="images/Yandex-market.png" alt="Yandex-market"></div>
+                <span class="fw">5 000 руб.</span>
+                <a href="#" class="location__btn btn buy-button">Купить</a>
+              </li>
+              <li class="location__shop-item">
+                <div class="location__shop-img"><img src="images/online-trade.png" alt="Online-trade"></div>
+                <span class="fw">5 000 руб.</span>
+                <a href="#" class="location__btn btn buy-button">Купить</a>
+              </li>
+              <li class="location__shop-item">
+                <div class="location__shop-img"><img src="images/citylink.png" alt="Citylink"></div>
+                <span class="fw">5 000 руб.</span>
+                <a href="#" class="location__btn btn buy-button">Купить</a>
+              </li>
+              <li class="location__shop-item location__shop-item_last">
+                <div class="location__shop-img"><img src="images/player.png" alt="Player"></div>
+                <span class="fw">5 000 руб.</span>
+                <a href="#" class="location__btn btn buy-button">Купить</a>
+              </li>
+            </ul>
+          </div>
+
+        </li>
+      </ul>
+    </div>
+
+  </div>
+</section>
+<section id="reviews">
+  <div class="container">
+    <h2 class="reviews__title">Отзывы покупателей</h2>
+    <div class="swiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <img src="images/reviews1.png" alt="Photo" class="reviews__photo">
+          <h5 class="reviews__name">Владимир</h5>
+          <div class="reviews__mark">
+            <div class="rating-mini">
+              <span class="active"></span>
+              <span class="active"></span>
+              <span class="active"></span>
+              <span class="active"></span>
+              <span class="active"></span>
+            </div>
+          </div>
+          <p class="reviews__text">Спасибо большое! Комплектация достаточная, большего не нужно. Работает. Будем
+            пользоваться с удовольствием!</p>
+        </div>
+        <div class="swiper-slide">
+          <img src="images/reviews2.png" alt="Photo" class="reviews__photo">
+          <h5 class="reviews__name">Сергей Викторович</h5>
+          <div class="reviews__mark">
+            <div class="rating-mini">
+              <span class="active"></span>
+              <span class="active"></span>
+              <span class="active"></span>
+              <span class="active"></span>
+              <span class="active"></span>
+            </div>
+          </div>
+          <p class="reviews__text">Отличная вещь за свои деньги.
+            В сравнении с другим аппаратом показания точные. Удобен
+            в использовании. </p>
+        </div>
+        <div class="swiper-slide">
+          <img src="images/reviews3.png" alt="Photo" class="reviews__photo">
+          <h5 class="reviews__name">Светлана</h5>
+          <div class="reviews__mark">
+            <div class="rating-mini">
+              <span class="active"></span>
+              <span class="active"></span>
+              <span class="active"></span>
+              <span class="active"></span>
+              <span class="active"></span>
+            </div>
+          </div>
+          <p class="reviews__text">Хорошее качество сборки, качественная манжета,
+            всё соответствует описанию.
+            Есть датчик аритмии. Батарейки
+            в комплекте. </p>
+        </div>
+        <div class="swiper-slide">
+          <img src="images/reviews1.png" alt="Photo" class="reviews__photo">
+          <h5 class="reviews__name">Владимир</h5>
+          <div class="reviews__mark">
+            <div class="rating-mini">
+              <span class="active"></span>
+              <span class="active"></span>
+              <span class="active"></span>
+              <span class="active"></span>
+              <span class="active"></span>
+            </div>
+          </div>
+          <p class="reviews__text">Спасибо большое! Комплектация достаточная, большего не нужно. Работает. Будем
+            пользоваться с удовольствием!</p>
+        </div>
+        <div class="swiper-slide">
+          <img src="images/reviews2.png" alt="Photo" class="reviews__photo">
+          <h5 class="reviews__name">Сергей Викторович</h5>
+          <div class="reviews__mark">
+            <div class="rating-mini">
+              <span class="active"></span>
+              <span class="active"></span>
+              <span class="active"></span>
+              <span class="active"></span>
+              <span class="active"></span>
+            </div>
+          </div>
+          <p class="reviews__text">Спасибо большое! Комплектация достаточная, большего не нужно. Работает. Будем
+            пользоваться с удовольствием!</p>
+        </div>
+      </div>
+    </div>
+    <div class="swiper-inner-btn">
+      <div class="swiper-button-prev">
+        <svg width="34" height="35" viewBox="0 0 34 35">
+          <path
+            d="M33.999 5.28146L22.0193 17.5623L33.999 29.8431L31.6031 34.7554L14.8314 17.5623L31.6031 0.369141L33.999 5.28146Z"
+            fill="#E5E5E5" />
+          <path
+            d="M19.167 5.28146L7.18724 17.5623L19.167 29.8431L16.771 34.7554L-0.000610343 17.5623L16.771 0.369141L19.167 5.28146Z"
+            fill="#E5E5E5" />
+        </svg>
+      </div>
+      <div class="swiper-button-next">
+        <svg width="34" height="35" viewBox="0 0 34 35">
+          <path
+            d="M-2.38111e-09 29.4735L11.9798 17.1929L-1.42866e-08 4.91225L2.39597 1.12657e-09L19.1677 17.1929L2.39597 34.3857L-2.38111e-09 29.4735Z"
+            fill="#E5E5E5" />
+          <path
+            d="M14.832 29.4735L26.8119 17.1929L14.832 4.91225L17.228 1.12657e-09L33.9998 17.1929L17.228 34.3857L14.832 29.4735Z"
+            fill="#E5E5E5" />
+        </svg>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="form">
+  <div class="container">
+    <h2 class="form__title">Остались вопросы?</h2>
+    <div class="form__wrapper">
+      <form action="#" class="form">
+        <input class="form__input" type="text" placeholder="Имя">
+        <input class="form__input" type="tel" placeholder="Телефон">
+        <input class="form__input form__input_third" type="email" placeholder="E-mail">
+        <input class="form__input" type="text" placeholder="Сообщение">
+        <button class="form__btn btn">Отправить заявку</button>
+      </form>
+      <div id="map">
+        <img src="images/map.jpg" alt="Map" class="map__img">
+        <div class="map__contacts">
+          <h4 class="map__title">Контакты</h4>
+          <div class="map__info">
+            <img src="images/geo.svg" alt="Geolocation" class="map__info-icon">
+            <p class="map__info-text">
+              Адрес: 117545, г. Москва,<span>
+                ул. Дорожная, д. 3,
+                корп. 6, комн. 8б
+              </span>
+            </p>
+          </div>
+          <div class="map__info">
+            <img src="images/phone.svg" alt="Phone" class="map__info-icon">
+            <p class="map__info-text">8 800 200-03-80</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<footer id="footer">
+  <div class="container">
+    <div class="footer">
+      <a href="#"><img src="images/logo.png" alt="AMD" class="footer__logo logo"></a>
+      <div class="footer__phone">
+        <a href="tel: 8(800)2000380" class="phone-number">
+          <svg width="23" height="23" viewBox="0 0 23 23" class="phone-icon">
+            <path
+              d="M21.1209 22.5C9.39076 22.5165 0.487638 13.5075 0.500013 1.87912C0.500013 1.11875 1.11601 0.5 1.87501 0.5H5.50501C6.18564 0.5 6.76451 1.0005 6.86489 1.67425C7.10428 3.28995 7.57428 4.86294 8.26051 6.34513L8.40214 6.65037C8.49727 6.85579 8.51774 7.08796 8.46 7.30685C8.40227 7.52573 8.26996 7.71761 8.08589 7.84938C6.96114 8.65238 6.53214 10.268 7.40801 11.5275C8.50664 13.1088 9.89126 14.4948 11.4725 15.5934C12.7334 16.4679 14.349 16.0389 15.1506 14.9155C15.2823 14.7309 15.4743 14.5981 15.6935 14.5401C15.9127 14.4821 16.1453 14.5025 16.351 14.5979L16.6549 14.7381C18.1371 15.4256 19.7101 15.8959 21.3258 16.1351C21.9995 16.2355 22.5 16.8144 22.5 17.4964V21.125C22.5 21.3057 22.4644 21.4846 22.3952 21.6515C22.326 21.8184 22.2246 21.9701 22.0968 22.0978C21.969 22.2255 21.8172 22.3267 21.6502 22.3957C21.4833 22.4648 21.3043 22.5002 21.1236 22.5H21.1209Z" />
+          </svg>
+          8 800 200-03-80
+        </a>
+      </div>
+      <div class="footer__social-web social-web">
+        <a href="#" class="footer__social-link">
+          <svg width="39" height="39" viewBox="0 0 39 39">
+            <circle cx="19.5" cy="19.5" r="19.5" fill="#4489C8" />
+            <g clip-path="url(#clip0)">
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M25.3176 20.4107C25.8536 20.9159 26.4193 21.3913 26.9 21.9475C27.1123 22.1946 27.3133 22.4496 27.4671 22.7365C27.685 23.1442 27.4877 23.5929 27.109 23.6172L24.7552 23.6162C24.1481 23.6649 23.6638 23.4289 23.2566 23.0281C22.9307 22.7076 22.6289 22.3665 22.3155 22.0352C22.1871 21.8998 22.0526 21.7724 21.892 21.6716C21.5706 21.4703 21.2917 21.5319 21.1081 21.8555C20.9211 22.1846 20.8787 22.549 20.8603 22.9158C20.8351 23.451 20.6675 23.5917 20.1108 23.6162C18.9209 23.6703 17.7917 23.4965 16.7427 22.917C15.8178 22.4061 15.1006 21.6848 14.4764 20.8683C13.261 19.2783 12.3302 17.5312 11.4937 15.7351C11.3054 15.3304 11.4431 15.1132 11.9055 15.1055C12.6734 15.0911 13.4412 15.0921 14.21 15.1045C14.5221 15.1089 14.7287 15.2817 14.8492 15.5664C15.2646 16.5527 15.773 17.4911 16.4111 18.3609C16.581 18.5924 16.7543 18.824 17.001 18.987C17.274 19.1675 17.4818 19.1077 17.6102 18.8141C17.6917 18.6279 17.7274 18.4274 17.7458 18.228C17.8066 17.5421 17.8146 16.8573 17.7079 16.1738C17.6424 15.7472 17.3935 15.471 16.9527 15.3903C16.7277 15.3491 16.7612 15.2683 16.8701 15.1443C17.0593 14.9305 17.2373 14.7974 17.592 14.7974H20.2521C20.6709 14.8772 20.7639 15.0588 20.8213 15.4657L20.8236 18.3187C20.819 18.4762 20.905 18.9436 21.1989 19.0478C21.434 19.1221 21.5891 18.9404 21.7302 18.7964C22.3671 18.1438 22.8217 17.3724 23.2278 16.5737C23.408 16.2225 23.5629 15.8578 23.7131 15.4934C23.8244 15.2229 23.999 15.0899 24.3145 15.0958L26.8747 15.098C26.9507 15.098 27.0275 15.0991 27.101 15.1112C27.5324 15.1822 27.6506 15.3614 27.5174 15.7681C27.3074 16.4063 26.8989 16.9381 26.4995 17.4724C26.0726 18.0428 25.6159 18.5937 25.1925 19.1675C24.8035 19.6915 24.8344 19.9556 25.3176 20.4107Z"
+                fill="white" />
+            </g>
+            <defs>
+              <clipPath id="clip0">
+                <rect width="16.1571" height="15.6" fill="white" transform="translate(11.4121 11.4116)" />
+              </clipPath>
+            </defs>
+          </svg>
+        </a>
+        <a href="#" class="footer__social-link">
+          <svg width="39" height="39" viewBox="0 0 39 39">
+            <circle cx="19.5" cy="19.5" r="19.5" fill="#3B5998" />
+            <g clip-path="url(#clip0)">
+              <path
+                d="M23.6516 11.4149L21.6571 11.4116C19.4164 11.4116 17.9684 12.9185 17.9684 15.2508V17.0209H15.963C15.7897 17.0209 15.6494 17.1634 15.6494 17.3392V19.9039C15.6494 20.0796 15.7899 20.222 15.963 20.222H17.9684V26.6935C17.9684 26.8693 18.1087 27.0116 18.282 27.0116H20.8984C21.0716 27.0116 21.212 26.8691 21.212 26.6935V20.222H23.5567C23.73 20.222 23.8703 20.0796 23.8703 19.9039L23.8712 17.3392C23.8712 17.2548 23.8381 17.174 23.7794 17.1142C23.7207 17.0545 23.6407 17.0209 23.5575 17.0209H21.212V15.5204C21.212 14.7991 21.3814 14.433 22.3077 14.433L23.6512 14.4325C23.8244 14.4325 23.9647 14.29 23.9647 14.1144V11.733C23.9647 11.5575 23.8245 11.4152 23.6516 11.4149Z"
+                fill="white" />
+            </g>
+            <defs>
+              <clipPath id="clip0">
+                <rect width="15.3803" height="15.6" fill="white" transform="translate(12.1162 11.4116)" />
+              </clipPath>
+            </defs>
+          </svg>
+        </a>
+        <a href="#" class="footer__social-link">
+          <svg id="Layer_1" style="enable-background:new 0 0 32 32;" version="1.1" viewBox="0 0 32 32"
+            xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <style type="text/css">
+              .st0 {
+                fill: url(#SVGID_1_);
+              }
+
+              .st1 {
+                fill: #FFFFFF;
+              }
+            </style>
+            <g>
+              <linearGradient gradientTransform="matrix(16.0027 -27.7174 27.7174 16.0027 -878.9595 -482.2268)"
+                gradientUnits="userSpaceOnUse" id="SVGID_1_" x1="-1.206969e-06" x2="1" y1="32" y2="32">
+                <stop offset="0" style="stop-color:#FEC053" />
+                <stop offset="0.327" style="stop-color:#F2203E" />
+                <stop offset="0.648" style="stop-color:#B729A8" />
+                <stop offset="1" style="stop-color:#5342D6" />
+              </linearGradient>
+              <path class="st0"
+                d="M16,0L16,0c8.8,0,16,7.2,16,16c0,8.8-7.2,16-16,16C7.2,32,0,24.8,0,16C0,7.2,7.2,0,16,0z" />
+              <path class="st1"
+                d="M20.7,6h-9.5C8.3,6,6,8.4,6,11.4v9.2c0,2.9,2.3,5.3,5.3,5.4h9.5c2.9,0,5.3-2.4,5.3-5.4v-9.2   C26,8.4,23.7,6,20.7,6z M24.2,20.5c0,2-1.6,3.7-3.7,3.7h-9.1c-2,0-3.7-1.7-3.6-3.7v-9c0-2,1.6-3.7,3.6-3.7h9.1c2,0,3.7,1.7,3.7,3.7   V20.5z" />
+              <path class="st1"
+                d="M16,10.9c-2.8-0.1-5.2,2.2-5.2,5c-0.1,2.8,2.2,5.2,5,5.2s5.2-2.2,5.2-5l0-0.1C21.1,13.2,18.8,10.9,16,10.9z    M16,19.3c-1.8,0-3.3-1.4-3.4-3.2c0-1.8,1.4-3.3,3.2-3.4s3.3,1.4,3.4,3.2l0,0.1C19.3,17.8,17.8,19.3,16,19.3z" />
+              <path class="st1"
+                d="M21.3,9.4c0.6,0,1.1,0.5,1.1,1.2s-0.5,1.2-1.1,1.2s-1.1-0.5-1.1-1.2S20.7,9.4,21.3,9.4z" />
+            </g>
+          </svg>
+        </a>
+      </div>
+      <p class="footer__copyright">© Все права защищены | A&D ® 2021</p>
+    </div>
+    <div class="footer__privacy">
+      При использовании интернет-ресурса https://____ в порядке, установленном ст. 9. Федерального закона от 27.07.2006
+      № 152-ФЗ «О персональных данных» (далее — ФЗ «О персональных данных»), пользователь сайта https://____ даёт
+      согласие ООО «ЭЙ энд ДИ РУС» на автоматизированную обработку, в том числе, но не ограничиваясь, на передачу в
+      сторонние сервисы анализа посетителей Yandex.Metrika, Yandex.Webmaster, Google Analytics, Google Tag Manager
+      данных о посетителе (а именно cookies, IP-адрес, URL страницы, заголовок и реферер страницы, предполагаемое
+      географическое положение, часовой пояс, возраст, пол, версия и язык браузера, разрешение дисплея, версия
+      операционной системы и вспомогательного программного обеспечения, учёт взаимодействия с сайтом, модель устройства,
+      поисковые системы, глубина просмотра, список скачанных файлов, интересы посетителя, список посещённых страниц и
+      проведённое время на сайте).
+    </div>
+    <div class="footer__warning">
+
+      <img src="images/text-footer.svg" alt="text">
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.min.js"></script>
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+</body>
+
+</html>
